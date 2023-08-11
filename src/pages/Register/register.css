@@ -1,0 +1,31 @@
+.btn-flat {
+  background-color: purple;
+  color: white;
+}
+
+.btn-xxl {
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+}
+.register_form {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.register_paragraph{
+  text-align: center;
+  margin-top: 100px;
+}
+.register_btn{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #20b8f5;
+  padding: 6px 20px;
+  padding-top: 3px;
+  margin-left: 38%;
+}
+
+.register_btn:hover {
+  background-color: #20b8f5;
+  opacity: 0.5;
+}
