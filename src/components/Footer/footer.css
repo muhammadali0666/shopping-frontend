@@ -1,0 +1,141 @@
+.footer {
+  background: var(--dark, #060F42);
+}
+
+.footer_inner {
+  padding: 30px;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .footer_list {
+}
+.footer_item {
+} */
+.footer_item_paragraph {
+  color: var(--some-1, #D9D9D9);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 133.333% */
+}
+
+.footer_item_link {
+  color: var(--some-1, #D9D9D9);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  /* 133.333% */
+  text-decoration: none;
+}
+
+.footer_item_link+.footer_item_link {
+  margin-top: 12px;
+}
+
+.footer_item_link_img {
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.footer_list {
+  max-width: 225px;
+}
+
+/* .footer_box {
+} */
+.footer_box_paragraph {
+  color: var(--some-1, #D9D9D9);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 133.333% */
+}
+
+.footer_box_list {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+
+.footer_box_item+.footer_box_item {
+  margin-left: 8px;
+}
+
+.footer_box_paragraph {
+  color: var(--some-1, #D9D9D9);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 133.333% */
+}
+
+/* .footer_box_link {}
+
+.footer_box_img {} */
+
+.footer_box_form {
+  display: flex;
+  align-items: center;
+}
+
+.footer_box_input {
+  width: 360px;
+  color: var(--grays-400-middle-grey, #9A9EA5);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  padding: 8px;
+}
+
+.footer_box_btn {
+  background-color: transparent;
+  border: none;
+  transform: translateX(-40px);
+}
+
+/* .footer_box_btn_img {} */
+
+.footer_bottom {
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.footer_bottom_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_bottom_item {
+  display: flex;
+  align-items: center;
+}
+
+/* .footer_logo_link {}
+
+.footer_logo {} */
+
+.footer_bottom_p {
+  margin-top: 30px;
+  color: var(--some-1, #D9D9D9);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 30px;
+}
