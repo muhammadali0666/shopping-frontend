@@ -24,12 +24,12 @@ export const Header = () => {
             </li>
             <li className="header_top_item">
               <a href="#" className="header_top_item_link">
-                Оплата и доставка
+                Payment and Delivery
               </a>
             </li>
             <li className="header_top_item">
               <a href="#" className="header_top_item_link">
-                Помощь
+                Help
               </a>
             </li>
             <li className="header_top_item">
@@ -39,7 +39,7 @@ export const Header = () => {
             </li>
             <li className="header_top_item">
               <a href="#" className="header_top_item_link">
-                Контакты
+                Contact
               </a>
             </li>
           </ul>
