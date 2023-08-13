@@ -5,6 +5,7 @@ import { Hero } from '../../components/Hero'
 import { Product } from '../../components/Product'
 import { GameZone } from '../../components/GameZone'
 import { Partner } from '../../components/Partner'
+import { News } from '../../components/News'
 
 export const Home = () => {
   return (
@@ -14,6 +15,7 @@ export const Home = () => {
       <Product/>
       <GameZone/>
       <Partner/>
+      <News/>
       <Footer/>
     </div>
   )
