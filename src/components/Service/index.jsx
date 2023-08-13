@@ -26,8 +26,8 @@ export const Service = () => {
             src={Pay}
             alt="icon"
             className="service_img"
-            width={50}
-            height={50}
+            width={54}
+            height={48}
           />
           <p className="service_p">Рассрочка 4 мес./0% без переплат</p>
         </li>
@@ -36,8 +36,8 @@ export const Service = () => {
             src={Delivery}
             alt="icon"
             className="service_img"
-            width={50}
-            height={50}
+            width={60}
+            height={40}
           />
           <p className="service_p">Бесплатная доставка</p>
         </li>
@@ -46,8 +46,8 @@ export const Service = () => {
             src={Guarante}
             alt="icon"
             className="service_img"
-            width={50}
-            height={50}
+            width={52}
+            height={48}
           />
           <p className="service_p">Официальная гарантия</p>
         </li>
@@ -56,8 +56,8 @@ export const Service = () => {
             src={Price}
             alt="icon"
             className="service_img"
-            width={50}
-            height={50}
+            width={60}
+            height={44}
           />
           <p className="service_p">Лучшая цена</p>
         </li>
@@ -66,8 +66,8 @@ export const Service = () => {
             src={Achievement}
             alt="icon"
             className="service_img"
-            width={50}
-            height={50}
+            width={51}
+            height={60}
           />
           <p className="service_p">11 лет на рынке</p>
         </li>
@@ -76,8 +76,8 @@ export const Service = () => {
             src={Operator}
             alt="icon"
             className="service_img"
-            width={50}
-            height={50}
+            width={43}
+            height={60}
           />
           <p className="service_p">Профессиональная консультация</p>
         </li>

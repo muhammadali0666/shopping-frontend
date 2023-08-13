@@ -1,0 +1,20 @@
+.partner_inner {
+  padding-bottom: 82px;
+}
+.partner_paragraph {
+font-size: 28px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 32px;
+}
+.partner_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .partner_item {
+}
+.partner_img {
+} */
