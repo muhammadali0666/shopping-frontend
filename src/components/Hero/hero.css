@@ -1,0 +1,7 @@
+.hero {
+  display: flex;
+}
+.hero_box {
+  width: 70%;
+  margin-left: 40px;
+}

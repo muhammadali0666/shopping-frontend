@@ -1,0 +1,27 @@
+.menyu {
+  width: 30%;
+}
+.menyu_list {
+  margin-top: 32px;
+}
+.menyu_item {
+  border-bottom: 1px solid #eae6e6;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 1px 0px 0px hsla(0, 0%, 0%, 0.039);
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.menyu_box {
+  display: flex;
+  align-items: center;
+}
+/* .menyu_img {
+} */
+.menyu_p {
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+/* .menyu_img_next {
+} */

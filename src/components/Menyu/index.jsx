@@ -30,7 +30,7 @@ export const Menyu = () => {
             src={Right}
             alt="motion"
             className="menyu_img_next"
-            width={2}
+            width={24}
             height={24}
           />
         </li>
@@ -97,7 +97,7 @@ export const Menyu = () => {
               src={Controller}
               alt="icon"
               className="menyu_img"
-              width={17}
+              width={20}
               height={20}
             />
             <p className="menyu_p">Игровые консоли</p>
@@ -201,7 +201,7 @@ export const Menyu = () => {
             src={Right}
             alt="motion"
             className="menyu_img_next"
-            width={16}
+            width={24}
             height={24}
           />
         </li>
