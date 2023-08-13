@@ -6,6 +6,7 @@ import { Product } from '../../components/Product'
 import { GameZone } from '../../components/GameZone'
 import { Partner } from '../../components/Partner'
 import { News } from '../../components/News'
+import { Post } from '../../components/Post'
 
 export const Home = () => {
   return (
@@ -16,6 +17,7 @@ export const Home = () => {
       <GameZone/>
       <Partner/>
       <News/>
+      <Post/>
       <Footer/>
     </div>
   )
