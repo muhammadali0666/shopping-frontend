@@ -19,17 +19,17 @@ export const Header = () => {
             </li>
             <li className="header_top_item">
               <a href="#" className="header_top_item_link">
-                Акции
+                Аksiya
               </a>
             </li>
             <li className="header_top_item">
               <a href="#" className="header_top_item_link">
-                Payment and Delivery
+                To'lash va Yetkazib berish
               </a>
             </li>
             <li className="header_top_item">
               <a href="#" className="header_top_item_link">
-                Help
+                Yordam
               </a>
             </li>
             <li className="header_top_item">
@@ -39,7 +39,7 @@ export const Header = () => {
             </li>
             <li className="header_top_item">
               <a href="#" className="header_top_item_link">
-                Contact
+                Bog'lanish
               </a>
             </li>
           </ul>
@@ -71,7 +71,7 @@ export const Header = () => {
               <img src={Logo} alt="" className="header_logo" width={164} height={42}/>
             </a>
             <button className="header_btn">
-              КАТАЛОГ ТОВАРОВ
+              Mahsulot turlari
               <img
                 src={Katalog}
                 alt="katalog"
@@ -84,7 +84,7 @@ export const Header = () => {
               <input
                 type="text"
                 className="header_input"
-                placeholder="search..."
+                placeholder="Qidirish..."
               />
               <button className="header_search_btn">
                 <img
@@ -98,7 +98,7 @@ export const Header = () => {
             </form>
             <select className="header_select">
               <option value="" className="header_option">
-                900000000
+                (90) 456 50 25
               </option>
             </select>
             <ul className="header_icons_list">

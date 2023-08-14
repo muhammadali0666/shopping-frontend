@@ -6,6 +6,9 @@
   position: relative;
   margin-bottom: 30px;
 }
+.card_item:hover {
+  transform: scale(1.1);
+}
 .card_span {
   margin-left: auto;
   position: absolute;

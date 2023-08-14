@@ -43,7 +43,7 @@ export const Menyu = () => {
               width={20}
               height={24}
             />
-            <p className="menyu_p">Мониторы</p>
+            <p className="menyu_p">Моnitorlar</p>
           </div>
           <img
             src={Right}
@@ -62,7 +62,7 @@ export const Menyu = () => {
               width={24}
               height={24}
             />
-            <p className="menyu_p">Компьютеры</p>
+            <p className="menyu_p">Kompyuterlar</p>
           </div>
           <img
             src={Right}
@@ -81,7 +81,7 @@ export const Menyu = () => {
               width={16}
               height={24}
             />
-            <p className="menyu_p">Ноутбуки</p>
+            <p className="menyu_p">Noutbuklar</p>
           </div>
           <img
             src={Right}
@@ -138,7 +138,7 @@ export const Menyu = () => {
               width={20}
               height={20}
             />
-            <p className="menyu_p">Планшеты</p>
+            <p className="menyu_p">Planshetlar</p>
           </div>
           <img
             src={Right}
@@ -157,7 +157,7 @@ export const Menyu = () => {
               width={18}
               height={24}
             />
-            <p className="menyu_p">Принтеры и МФУ</p>
+            <p className="menyu_p">Printerlar</p>
           </div>
           <img
             src={Right}
@@ -176,7 +176,7 @@ export const Menyu = () => {
               width={20}
               height={20}
             />
-            <p className="menyu_p">Акустические колонки</p>
+            <p className="menyu_p">Kalonkalar</p>
           </div>
           <img
             src={Right}

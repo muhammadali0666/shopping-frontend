@@ -21,22 +21,22 @@ export const Footer = () => {
             <ul className="footer_list">
               <li className="footer_item">
                 <h4 href="#" className="footer_item_paragraph">
-                  Информация
+                  Ma'lumot
                 </h4>
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Акции
+                  Акsiya
                 </a>
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Оплата и доставка
+                  To'lov va Yetkazib berish
                 </a>
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Гарантия
+                  Kafolat
                 </a>
               </li>
               <li className="footer_item">
@@ -46,7 +46,7 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Новости
+                  Yangiliklar
                 </a>
               </li>
               <li className="footer_item">
@@ -66,7 +66,7 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Контакты
+                  Bog'lanish
                 </a>
               </li>
             </ul>
@@ -78,7 +78,7 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Сервисный центр v-comp
+                  Xizmat markazi
                 </a>
               </li>
               <li className="footer_item">
@@ -98,7 +98,7 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Компьютерная помощь
+                  kompitur bo'yicha yordam
                 </a>
               </li>
               <li className="footer_item">
@@ -108,29 +108,29 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Главная
+                  Bosh sahifa
                 </a>
               </li>
             </ul>
             <ul className="footer_list">
               <li className="footer_item">
                 <h4 href="#" className="footer_item_paragraph">
-                  Контакты
+                  Bog'lanish
                 </h4>
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  (067) 11-12-485 - Отдел продаж
+                  (90) 456-50-25 - Отдел продаж
                 </a>
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  (066) 484-39-22 - Отдел продаж
+                  (90) 456-50-25 - Отдел продаж
                 </a>
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  (063) 747-33-48 - Отдел продаж
+                  (90) 456-50-25 - Отдел продаж
                   <img
                     src={MiniWhatsap}
                     alt="icon"
@@ -154,8 +154,7 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Понедельник-Пятница 9:00-19:00 Суббота-Воскресенье: с
-                  9:00-16:00
+                 Dushanba-Yakshanba 9:00-19:00
                 </a>
               </li>
             </ul>
@@ -261,7 +260,7 @@ export const Footer = () => {
                   />
                 </a>
                 <p className="footer_bottom_p">
-                  {new Date().getFullYear()} Интернет-магазин v-comp.com.ua Все
+                  {new Date().getFullYear()} Интернет-магазин ... Все
                   права защищены
                 </p>
               </li>

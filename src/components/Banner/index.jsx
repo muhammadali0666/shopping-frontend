@@ -1,5 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
-import Bg from "../../assets/img/online-shopping-banner-vector-17230980.jpg";
+import Bg from "../../assets/img/hero-bg.png";
+import BgTwo from "../../assets/img/online-shopping-banner-vector-17230980.jpg"
 import "./banner.css"
 
 function Banner() {
@@ -14,7 +15,7 @@ function Banner() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100 banner_img" src={Bg} alt="Second slide" />
+        <img className="d-block w-100 banner_img" src={BgTwo} alt="Second slide" />
         <Carousel.Caption>
         <h5>TEXT BANNER</h5>
           <p>BANNER DESCRIPTION SMALL TEXT</p>
@@ -23,6 +24,14 @@ function Banner() {
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100 banner_img" src={Bg} alt="Third slide" />
+        <Carousel.Caption>
+        <h5>TEXT BANNER</h5>
+          <p>BANNER DESCRIPTION SMALL TEXT</p>
+          <button className="btn btn-danger" style={{background: "#E93232"}}>text btn</button>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100 banner_img" src={BgTwo} alt="Second slide" />
         <Carousel.Caption>
         <h5>TEXT BANNER</h5>
           <p>BANNER DESCRIPTION SMALL TEXT</p>
