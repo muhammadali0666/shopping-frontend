@@ -7,7 +7,7 @@ export const Partner = () => {
     <div className="partner">
       <div className="container">
         <div className="partner_inner">
-          <h2 className="partner_paragraph">Партнеры</h2>
+          <h2 className="partner_paragraph">Hamkorlar</h2>
           <ul className="partner_list">
             <li className="partner_item">
               <img

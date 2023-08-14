@@ -8,9 +8,9 @@ import { Error } from "../pages/Error";
 export const RouterWrapper = () => {
   return (
     <Routes>
-      <Route path="/" element={<Register />} />
+      <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="*" element={<Error />} />
     </Routes>
   );

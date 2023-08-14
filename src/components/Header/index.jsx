@@ -1,11 +1,10 @@
 import "./header.css";
 import Hamburger from "../../assets/img/hamburger.png";
 import User from "../../assets/img/user.png";
-import Logo from "../../assets/img/logo.png";
+import Logo from "../../assets/img/logo-store.png";
 import Katalog from "../../assets/img/Catalog.png";
 import Like from "../../assets/img/like.png";
-import Notification from "../../assets/img/notification.png";
-import Shopping from "../../assets/img/shopping.png";
+import Shopping from "../../assets/img/shopping-cart.png";
 import Search from "../../assets/img/search.png";
 
 export const Header = () => {
@@ -30,11 +29,6 @@ export const Header = () => {
             <li className="header_top_item">
               <a href="#" className="header_top_item_link">
                 Yordam
-              </a>
-            </li>
-            <li className="header_top_item">
-              <a href="#" className="header_top_item_link">
-                Скупка Б/У
               </a>
             </li>
             <li className="header_top_item">
@@ -68,7 +62,7 @@ export const Header = () => {
           {/* header_bottom  */}
           <div className="header_bottom">
             <a href="#" className="header_logo_link">
-              <img src={Logo} alt="" className="header_logo" width={164} height={42}/>
+              <img src={Logo} alt="" className="header_logo" width={104} height={40}/>
             </a>
             <button className="header_btn">
               Mahsulot turlari
@@ -104,20 +98,11 @@ export const Header = () => {
             <ul className="header_icons_list">
               <li className="header_icons_item">
                 <img
-                  src={Notification}
-                  alt=""
-                  className="header_icons_img"
-                  width={46}
-                  height={49}
-                />
-              </li>
-              <li className="header_icons_item">
-                <img
                   src={Like}
                   alt=""
                   className="header_icons_img"
-                  width={46}
-                  height={49}
+                  width={30}
+                  height={30}
                 />
               </li>
               <li className="header_icons_item">
@@ -125,8 +110,8 @@ export const Header = () => {
                   src={Shopping}
                   alt=""
                   className="header_icons_img"
-                  width={46}
-                  height={49}
+                  width={30}
+                  height={30}
                 />
               </li>
             </ul>

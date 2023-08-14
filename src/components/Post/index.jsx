@@ -6,35 +6,35 @@ export const Post = () => {
       <div className="container">
         <div className="post_inner">
           <h2 className="post_paragraph">
-            Магазин компьтерной техники и Аксессуар v-comp.com.ua
+          Kompyuter do'koni va aksessuarlari ZarStore
           </h2>
           <p className="post_p">
-            Интернет-магазин v-comp.com.ua – всеукраинский магазин компьютерной
-            техники и комплектующих, в котором без труда Вы сможете найти
-            подходящий Вам компьютер с минимальной стоимостью. Посетив наш
-            интернет-магазин, Вы сможете приобрести компьютеры и комплектующие,
-            которые есть у нас в наличии или осуществить их заказ. И в
-            кротчайшие сроки Мы доставим товар приглянувшийся Вам.
+          v-comp.com.ua onlayn-do'koni - butun Ukraina kompyuter do'koni
+             Siz osongina topishingiz mumkin bo'lgan uskunalar va komponentlar
+             eng arzon narxda siz uchun mos kompyuter. Bizning tashrif orqali
+             onlayn do'konda siz kompyuterlar va aksessuarlarni sotib olishingiz mumkin,
+             bizda mavjud yoki ularga buyurtma berish. Va ichida
+             eng qisqa vaqt ichida sizga yoqqan tovarlarni yetkazib beramiz.
             <br /> <br />
-            В базе электронного магазина v-comp.com.ua представлены тысячи
-            актуальных товаров компьютерной техники: ноутбуки, мониторы, мыши,
-            клавиатуры, материнские платы, процессоры; для работы с интернетом:
-            сервера, модемы, роутеры, свич-кабеля, обжимные; для игр, отдыха и
-            развлечений: суперовые gamebox сборки, game игровые видеокарты; для
-            компании, офиса - офисные сборки. Мы подберем под Вас удобные
-            недорогие компьютеры по Вашим целям и сделаем хорошие скидки, при
-            оформлении покупки большого количества компьютеров. <br /> <br />
-            Ваша модель компьютера устарела, мы поможем модернизировать
-            устаревшее оборудование. <br /> Подберем для Вас наилучшие
-            компьютерные комплектующие по низким ценам. <br /> <br /> Наша
-            команда Интернет-магазина v-comp.com.ua соберет для Вас любую сборку
-            по Вашим потребностям, а случае, если Ваш компьютер, ноутбук,
-            материнская плата, принтер, сканер, копир, МФУ или другие составные
-            части вышли из строя, поломались. Не беда! Мы выявим проблему,
-            починим, произведем ремонт или заменим деталь, оборудование на
-            новое. И все это в одном месте, не нужно обходить большое количество
-            магазинов, сервисных центров, ждать по две, три недели. Компьютерный
-            Интернет-магазин v-comp.com.ua
+            v-comp.com.ua elektron do'kon ma'lumotlar bazasi minglab narsalarni o'z ichiga oladi
+             kompyuter texnikasining haqiqiy tovarlari: noutbuklar, monitorlar, sichqonlar,
+             klaviaturalar, anakartlar, protsessorlar; Internet bilan ishlash uchun:
+             serverlar, modemlar, marshrutizatorlar, kommutator kabellari, siqish; o'yinlar, dam olish va
+             o'yin-kulgi: super o'yin qutisi yig'inlari, o'yin video kartalari; Uchun
+             kompaniyalar, idoralar - ofis yig'ilishlari. Biz siz uchun eng qulayini tanlaymiz
+             Sizning maqsadlaringiz uchun arzon kompyuterlar va biz yaxshi chegirmalar qilamiz, bilan
+             ko'p sonli kompyuterlarni sotib olish. <br /> <br />
+             Kompyuteringiz modeli eskirgan, biz sizga yangilashda yordam beramiz
+             eskirgan uskunalar. <br /> Biz siz uchun eng yaxshisini tanlaymiz
+             arzon narxlarda kompyuter komponentlari.<br /> <br />Bizning
+             v-comp.com.ua onlayn-do'kon jamoasi siz uchun har qanday yig'ilishni yig'adi
+             ehtiyojlaringizga ko'ra, va agar sizning kompyuteringiz, noutbukingiz,
+             anakart, printer, skaner, nusxa ko'chirish mashinasi, MFP yoki boshqa komponentlar
+             qismlar yaroqsiz, buzilgan. Hammasi joyida! Muammoni topamiz
+             ta'mirlash, ta'mirlash yoki qismni almashtirish, uskunalar
+             yangi. Va bularning barchasi bir joyda, ko'p sonni chetlab o'tishga hojat yo'q
+             do'konlar, xizmat ko'rsatish markazlari, ikki yoki uch hafta kuting. Kompyuter
+             ZarStore onlayn-do'koni
           </p>
         </div>
       </div>

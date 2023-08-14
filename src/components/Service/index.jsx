@@ -19,17 +19,7 @@ export const Service = () => {
             width={50}
             height={50}
           />
-          <p className="service_p">Бесплатная сборка</p>
-        </li>
-        <li className="service_item">
-          <img
-            src={Pay}
-            alt="icon"
-            className="service_img"
-            width={54}
-            height={48}
-          />
-          <p className="service_p">Рассрочка 4 мес./0% без переплат</p>
+          <p className="service_p">Tekin yig'ilish</p>
         </li>
         <li className="service_item">
           <img
@@ -39,7 +29,7 @@ export const Service = () => {
             width={60}
             height={40}
           />
-          <p className="service_p">Бесплатная доставка</p>
+          <p className="service_p">Yetkazib berish</p>
         </li>
         <li className="service_item">
           <img
@@ -49,7 +39,7 @@ export const Service = () => {
             width={52}
             height={48}
           />
-          <p className="service_p">Официальная гарантия</p>
+          <p className="service_p">Rasmiy kafolat</p>
         </li>
         <li className="service_item">
           <img
@@ -59,7 +49,7 @@ export const Service = () => {
             width={60}
             height={44}
           />
-          <p className="service_p">Лучшая цена</p>
+          <p className="service_p">Eng yaxshi narx</p>
         </li>
         <li className="service_item">
           <img
@@ -69,7 +59,7 @@ export const Service = () => {
             width={51}
             height={60}
           />
-          <p className="service_p">11 лет на рынке</p>
+          <p className="service_p">Bozorda 11 yil</p>
         </li>
         <li className="service_item">
           <img
@@ -79,7 +69,7 @@ export const Service = () => {
             width={43}
             height={60}
           />
-          <p className="service_p">Профессиональная консультация</p>
+          <p className="service_p">Professional maslahat</p>
         </li>
       </ul>
     </div>

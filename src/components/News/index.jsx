@@ -10,7 +10,7 @@ export const News = () => {
     <div className="news">
       <div className="container">
         <div className="news_inner">
-          <h2 className="news_paragraph_next">Новости</h2>
+          <h2 className="news_paragraph_next">Yangiliklar</h2>
           <ul className="news_list">
             <li className="news_item">
               <img
@@ -21,14 +21,14 @@ export const News = () => {
                 height={209}
               />
               <h4 className="news_paragraph">
-                Вакансия! Требуется контент-менеджер
+              Vakansiya! Kontent menejeri kerak
               </h4>
               <p className="news_p">
-                Интернет-магазину V-COMP на постоянную работу, требуется
-                контент-менеджер. Работа удаленно (на дому), не сложная...
+              Doimiy ish uchun onlayn-do'kon V-COMP, talab qilinadi
+                 Kontent menejeri. Masofadan turib (uyda) ishlash qiyin emas...
               </p>
               <a href="#" className="news_link">
-                Читать полностью
+              To'liq o'qing
                 <img
                   src={Right}
                   alt="icon"
@@ -46,13 +46,12 @@ export const News = () => {
                 width={371}
                 height={209}
               />
-              <h4 className="news_paragraph">Бесплатная сборка ПК</h4>
+              <h4 className="news_paragraph">Bepul kompyuter yig'ish</h4>
               <p className="news_p">
-                Друзья! При покупке всех комплектующих для ПК в нашей компании,
-                сборка ПК бесплатно. Вам не нужно тратить время и рисковать...
+              Do'stlar! Kompaniyamizdagi barcha shaxsiy kompyuter komponentlarini sotib olayotganda, kompyuterni yig'ish bepul. Vaqt va tavakkalchilikni behuda sarflashingiz shart emas...
               </p>
               <a href="#" className="news_link">
-                Читать полностью
+              To'liq o'qing
                 <img
                   src={Right}
                   alt="icon"
@@ -70,13 +69,13 @@ export const News = () => {
                 width={371}
                 height={209}
               />
-              <h4 className="news_paragraph">Бесплатная доставка</h4>
+              <h4 className="news_paragraph">Bepul yetkazib berish</h4>
               <p className="news_p">
-                Бесплатная доставка по Днепру (курьером) при покупке от 3000
-                грн. (Подробнее в разделе Оплата и доставка)...
+              10 000 000 so'mdan sotib olayotganda O'zbekiston bo'ylab bepul yetkazib berish (kurer orqali).
+                  (Batafsil ma'lumot to'lov va yetkazib berish bo'limida)...
               </p>
               <a href="#" className="news_link">
-                Читать полностью
+              To'liq o'qing
                 <img
                   src={Right}
                   alt="icon"
@@ -95,14 +94,14 @@ export const News = () => {
                 height={209}
               />
               <h4 className="news_paragraph">
-                Акция! Подготовь ноутбук к лету!
+              Aksiya! Noutbukingizni yozga tayyorlang!
               </h4>
               <p className="news_p">
-                У нас ежегодная акция "Подготовь ноутбук к лету!" 50% скидка на
-                чистку ноутбука, 15.05.19-15.06.19 В чистку входит...
+              Bizda har yili “Noutbukni yozga tayyorla!” aksiyasi o‘tkaziladi. 50% chegirma
+                 Noutbuklarni tozalash, 15/15/19-06/15/19 Tozalash quyidagilarni o'z ichiga oladi...
               </p>
               <a href="#" className="news_link">
-                Читать полностью
+              To'liq o'qing
                 <img
                   src={Right}
                   alt="icon"
@@ -114,7 +113,7 @@ export const News = () => {
             </li>
           </ul>
           <a href="#" className="news_btn">
-            Все новости
+            Hamma yangiliklar
             <img
               src={Right}
               alt="icon"

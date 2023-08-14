@@ -7,7 +7,7 @@ export const Product = () => {
       <div className="container">
         <div className="product_inner">
           <h2 className="card_paragraph">
-          Топ продаж
+          Eng ko'p sotilgan
           </h2>
           <ul className="card_list">
             <Card/>

@@ -24,7 +24,7 @@ export const Menyu = () => {
               width={20}
               height={20}
             />
-            <p className="menyu_p">Комплектующие ПК</p>
+            <p className="menyu_p">Kompyuter komponentlari</p>
           </div>
           <img
             src={Right}
@@ -100,7 +100,7 @@ export const Menyu = () => {
               width={20}
               height={20}
             />
-            <p className="menyu_p">Игровые консоли</p>
+            <p className="menyu_p">O'yin konsollari</p>
           </div>
           <img
             src={Right}
@@ -119,7 +119,7 @@ export const Menyu = () => {
               width={24}
               height={12}
             />
-            <p className="menyu_p">Комплектующие к ноутбукам</p>
+            <p className="menyu_p">Noutbuklar uchun aksessuarlar</p>
           </div>
           <img
             src={Right}
@@ -195,7 +195,7 @@ export const Menyu = () => {
               width={24}
               height={23}
             />
-            <p className="menyu_p">Сетевое оборудование</p>
+            <p className="menyu_p">tarmoq apparati</p>
           </div>
           <img
             src={Right}

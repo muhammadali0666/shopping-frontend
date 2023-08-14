@@ -8,7 +8,7 @@ import Youtube from "../../assets/img/youtube.png";
 import Telegram from "../../assets/img/telegram.png";
 import Linkedin from "../../assets/img/linkedin.png";
 import Send from "../../assets/img/send.png";
-import FooterLogo from "../../assets/img/footer_logo.png"
+import FooterLogo from "../../assets/img/logo-store.png"
 import Visa from "../../assets/img/visa.png"
 import Master from "../../assets/img/mastercard white.png"
 
@@ -41,7 +41,7 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Частые вопросы
+                TSS
                 </a>
               </li>
               <li className="footer_item">
@@ -51,17 +51,17 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Блог
+                Blog
                 </a>
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  О нас
+                Biz haqimizda
                 </a>
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Политика конфиденциальности
+                Maxfiylik siyosati
                 </a>
               </li>
               <li className="footer_item">
@@ -73,7 +73,7 @@ export const Footer = () => {
             <ul className="footer_list">
               <li className="footer_item">
                 <h4 href="#" className="footer_item_paragraph">
-                  Услуги и сервисы
+                Xizmatlar va xizmatlar
                 </h4>
               </li>
               <li className="footer_item">
@@ -83,17 +83,7 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Магазин Б/У товара
-                </a>
-              </li>
-              <li className="footer_item">
-                <a href="#" className="footer_item_link">
-                  Скупка Б/У
-                </a>
-              </li>
-              <li className="footer_item">
-                <a href="#" className="footer_item_link">
-                  Ремонт ПК и оргтехники
+                Kompyuter va ofis jihozlarini ta'mirlash
                 </a>
               </li>
               <li className="footer_item">
@@ -103,7 +93,7 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Сотрудничество
+                Hamkorlik
                 </a>
               </li>
               <li className="footer_item">
@@ -120,17 +110,7 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  (90) 456-50-25 - Отдел продаж
-                </a>
-              </li>
-              <li className="footer_item">
-                <a href="#" className="footer_item_link">
-                  (90) 456-50-25 - Отдел продаж
-                </a>
-              </li>
-              <li className="footer_item">
-                <a href="#" className="footer_item_link">
-                  (90) 456-50-25 - Отдел продаж
+                  (90) 456-50-25 - Savdo bo'limi
                   <img
                     src={MiniWhatsap}
                     alt="icon"
@@ -149,17 +129,12 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                  Днепр Европейская, 8 (бывшая Миронова 8)
-                </a>
-              </li>
-              <li className="footer_item">
-                <a href="#" className="footer_item_link">
                  Dushanba-Yakshanba 9:00-19:00
                 </a>
               </li>
             </ul>
             <div className="footer_box">
-              <h3 className="footer_box_paragraph">Следите за нами</h3>
+              <h3 className="footer_box_paragraph">Ortimizdan yuring</h3>
               <ul className="footer_box_list">
                 <li className="footer_box_item">
                   <a href="#" className="footer_box_link">
@@ -228,7 +203,7 @@ export const Footer = () => {
                   </a>
                 </li>
               </ul>
-              <h4 className="footer_box_paragraph">Подписывайтесь на скидки</h4>
+              <h4 className="footer_box_paragraph">Chegirmalarga obuna bo'ling</h4>
               <form className="footer_box_form">
                 <input
                   type="text"
@@ -260,8 +235,8 @@ export const Footer = () => {
                   />
                 </a>
                 <p className="footer_bottom_p">
-                  {new Date().getFullYear()} Интернет-магазин ... Все
-                  права защищены
+                  {new Date().getFullYear()} ZarStore onlayn-do'koni
+                   huquqlar himoyalangan
                 </p>
               </li>
               <li className="footer_bottom_item">

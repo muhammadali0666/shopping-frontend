@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
 .card_paragraph {

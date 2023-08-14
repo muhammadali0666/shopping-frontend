@@ -15,7 +15,7 @@ export const GameZone = () => {
         <div className="game_inner">
           <div className="game_top">
             <div className="game_animation"></div>
-            <h2 className="game_paragraph">GAME ZONE</h2>
+            <h2 className="game_paragraph">O'YIN ZONASI</h2>
             <div className="game_animation_next"></div>
           </div>
           <ul className="game_list">
@@ -45,7 +45,7 @@ export const GameZone = () => {
               height={16}
             />
           </a>
-          <h3 className="game_paragraph_next">Категории для геймеров</h3>
+          <h3 className="game_paragraph_next">Geymerlar uchun toifalar</h3>
           <ul className="game_next-list">
             <li className="game_next_item">
               <img
@@ -55,7 +55,7 @@ export const GameZone = () => {
                 width={215}
                 height={168}
               />
-              <p className="game_next_p">Клавиатуры</p>
+              <p className="game_next_p">Кlaviyaturalar</p>
             </li>
             <li className="game_next_item">
               <img
@@ -65,7 +65,7 @@ export const GameZone = () => {
                 width={215}
                 height={168}
               />
-              <p className="game_next_p">Мыши</p>
+              <p className="game_next_p">Sichqonchalar</p>
             </li>
             <li className="game_next_item">
               <img
@@ -75,7 +75,7 @@ export const GameZone = () => {
                 width={215}
                 height={168}
               />
-              <p className="game_next_p">Аксессуары</p>
+              <p className="game_next_p">Акsesuarlar</p>
             </li>
             <li className="game_next_item">
               <img
@@ -85,7 +85,7 @@ export const GameZone = () => {
                 width={215}
                 height={168}
               />
-              <p className="game_next_p">Игровые ноутбуки</p>
+              <p className="game_next_p">O'yin noutbuklari</p>
             </li>
             <li className="game_next_item">
               <img
@@ -95,7 +95,7 @@ export const GameZone = () => {
                 width={215}
                 height={168}
               />
-              <p className="game_next_p">Видеокарты</p>
+              <p className="game_next_p">Videokartalar</p>
             </li>
             <li className="game_next_item">
               <img
@@ -105,7 +105,7 @@ export const GameZone = () => {
                 width={215}
                 height={168}
               />
-              <p className="game_next_p">Мониторы</p>
+              <p className="game_next_p">Моnitorlar</p>
             </li>
           </ul>
         </div>

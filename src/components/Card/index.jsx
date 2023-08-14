@@ -8,13 +8,6 @@ export const Card = () => {
     <li className="card_item">
       <span className="card_span">
         <img
-          src={Tarozi}
-          alt="icon"
-          className="card_mini_img"
-          width={24}
-          height={24}
-        />
-        <img
           src={Like}
           alt="icon"
           className="card_mini_img"
@@ -30,10 +23,10 @@ export const Card = () => {
         height={214}
       />
       <p className="card_p">Монитор 23.8" Acer K240YB, Black (UM.QE0EE.B01)</p>
-      <p className="card_text">Отзывов: 0</p>
+      <p className="card_text">Sharhlar: 0</p>
       <div className="card_box">
-        <p className="card_price">3500 грн.</p>
-        <button className="card_btn btn btn-success">КУПИТЬ</button>
+        <p className="card_price">3 500 000 so'm.</p>
+        <button className="card_btn btn btn-success">Sotib olish</button>
       </div>
     </li>
   );
