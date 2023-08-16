@@ -9,14 +9,14 @@ export const Post = () => {
           Kompyuter do'koni va aksessuarlari ZarStore
           </h2>
           <p className="post_p">
-          v-comp.com.ua onlayn-do'koni - butun Ukraina kompyuter do'koni
+          ZarStore onlayn-do'koni - butun Ukraina kompyuter do'koni
              Siz osongina topishingiz mumkin bo'lgan uskunalar va komponentlar
              eng arzon narxda siz uchun mos kompyuter. Bizning tashrif orqali
              onlayn do'konda siz kompyuterlar va aksessuarlarni sotib olishingiz mumkin,
              bizda mavjud yoki ularga buyurtma berish. Va ichida
              eng qisqa vaqt ichida sizga yoqqan tovarlarni yetkazib beramiz.
             <br /> <br />
-            v-comp.com.ua elektron do'kon ma'lumotlar bazasi minglab narsalarni o'z ichiga oladi
+            ZarStore elektron do'kon ma'lumotlar bazasi minglab narsalarni o'z ichiga oladi
              kompyuter texnikasining haqiqiy tovarlari: noutbuklar, monitorlar, sichqonlar,
              klaviaturalar, anakartlar, protsessorlar; Internet bilan ishlash uchun:
              serverlar, modemlar, marshrutizatorlar, kommutator kabellari, siqish; o'yinlar, dam olish va
@@ -27,7 +27,7 @@ export const Post = () => {
              Kompyuteringiz modeli eskirgan, biz sizga yangilashda yordam beramiz
              eskirgan uskunalar. <br /> Biz siz uchun eng yaxshisini tanlaymiz
              arzon narxlarda kompyuter komponentlari.<br /> <br />Bizning
-             v-comp.com.ua onlayn-do'kon jamoasi siz uchun har qanday yig'ilishni yig'adi
+             ZarStore onlayn-do'kon jamoasi siz uchun har qanday yig'ilishni yig'adi
              ehtiyojlaringizga ko'ra, va agar sizning kompyuteringiz, noutbukingiz,
              anakart, printer, skaner, nusxa ko'chirish mashinasi, MFP yoki boshqa komponentlar
              qismlar yaroqsiz, buzilgan. Hammasi joyida! Muammoni topamiz

@@ -6,6 +6,7 @@ import Katalog from "../../assets/img/Catalog.png";
 import Like from "../../assets/img/like.png";
 import Shopping from "../../assets/img/shopping-cart.png";
 import Search from "../../assets/img/search.png";
+import { NavLink } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -50,9 +51,9 @@ export const Header = () => {
               </a>
             </li>
             <li className="header_top_item_next">
-              <a href="#" className="header_top_item_link_next">
+              <NavLink to={'/register'} href="#" className="header_top_item_link_next">
                 <img src={User} alt="asdas" width={32} height={32} />
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

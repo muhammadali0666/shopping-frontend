@@ -40,6 +40,10 @@
   align-items: center;
 }
 
+.header_top_item_link:hover {
+  color: var(--soft, #76bef9);
+}
+
 .header_top_item_next+.header_top_item_next {
   margin-left: 32px;
 }
