@@ -134,7 +134,7 @@ export const Footer = () => {
               </li>
             </ul>
             <div className="footer_box">
-              <h3 className="footer_box_paragraph">Ortimizdan yuring</h3>
+              <h3 className="footer_box_paragraph">Bizni kuzatib boring</h3>
               <ul className="footer_box_list">
                 <li className="footer_box_item">
                   <a href="#" className="footer_box_link">
