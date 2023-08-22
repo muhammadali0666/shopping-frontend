@@ -9,6 +9,9 @@ export const Cheaper = () => {
       data-bs-theme="dark banner"
       style={{ marginBottom: "50px", marginTop: "32px" }}
     >
+      <h2 className="cheaper_big_text">
+      Вместе дешевле
+      </h2>
       <Carousel.Item>
         <div className="cheaper">
           <div className="cheaper_box">
