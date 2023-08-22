@@ -6,6 +6,7 @@ import { Characteristics } from "./characteristics";
 import { Proccess } from "./proccess";
 import { Delivery } from "./delivery";
 import { Guarantee } from "./guarantee";
+import { Cheaper } from "./cheaper";
 
 export const Product_hero = () => {
   return (
@@ -76,6 +77,7 @@ export const Product_hero = () => {
             <Guarantee/>
           </div>
         </div>
+         <Cheaper/>
       </div>
     </div>
   );

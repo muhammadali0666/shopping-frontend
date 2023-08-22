@@ -258,3 +258,45 @@ line-height: 20px;
 letter-spacing: 0em;
 text-align: left;
 }
+/* .cheaper {
+} */
+.cheaper_box {
+  box-shadow: 0px 2px 10px 0px #32324724;
+}
+.cheaper_list {
+  display: flex;
+}
+.cheaper_item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.cheaper_img {
+  margin-right: 10px;
+}
+/* .cheaper_inner {
+} */
+.cheaper_paragraph {
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.cheaper_p {
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: red;
+}
+.cheaper_span {
+font-size: 12px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 0px;
+text-align: center;
+color: red;
+}
