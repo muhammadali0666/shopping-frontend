@@ -5,6 +5,7 @@ import { Login } from "../pages/Login";
 import { Home } from "../pages/Home";
 import { Error } from "../pages/Error";
 import { ProductPage } from "../pages/Product";
+import { ProductCharacteristic } from "../pages/ProductCharacteristic";
 
 export const RouterWrapper = () => {
   return (
@@ -13,6 +14,7 @@ export const RouterWrapper = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/" element={<Home />} />
       <Route path="/product" element={<ProductPage/>}/>
+      <Route path="/productCharacteristic" element={<ProductCharacteristic/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );

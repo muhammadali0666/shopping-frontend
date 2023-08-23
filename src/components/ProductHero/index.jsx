@@ -8,6 +8,7 @@ import { Delivery } from "./delivery";
 import { Guarantee } from "./guarantee";
 import { Cheaper } from "./cheaper";
 import { ProCard } from "./proCard";
+import { NavLink } from "react-router-dom";
 
 export const Product_hero = () => {
   return (
@@ -22,15 +23,15 @@ export const Product_hero = () => {
             Код товара: <span className="product_hero_span">1234</span>
           </p>
         </div>
-            <ul className="product_hero_list">
-              <li className="product_hero_item">
-                  Все о товаре
-              </li>
-              <li className="product_hero_item">
-                  Характеристики
-              </li>
-            </ul>
-            <hr />
+        <ul className="product_hero_list">
+          <li className="product_hero_item">
+            <NavLink to={'/product'} style={{textDecoration: "none", color: "black"}}>Все о товаре</NavLink>
+          </li>
+          <li className="product_hero_item">
+            <NavLink to={'/productcharacteristic'} style={{textDecoration: "none", color: "black"}}>Характеристики</NavLink>
+          </li>
+        </ul>
+        <hr />
         <div className="product_hero_inner">
           <div className="product_left_box">
             <Carousel
@@ -73,13 +74,13 @@ export const Product_hero = () => {
             <Characteristics />
           </div>
           <div className="product_right_box">
-            <Proccess/>
-            <Delivery/>
-            <Guarantee/>
+            <Proccess />
+            <Delivery />
+            <Guarantee />
           </div>
         </div>
-         <Cheaper/>
-         <ProCard/>
+        <Cheaper />
+        <ProCard />
       </div>
     </div>
   );

@@ -1,0 +1,24 @@
+.process_inner {
+  display: flex;
+  align-items: center;
+}
+
+.proccess_inner_img {
+  margin-right: 20px;
+}
+
+.proccess_inner_paragraph {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+width: 40%;
+}
+.product_right_box_extra {
+  width: 50%;
+}
+.product_left_box_extra{
+  width: 50%;
+  margin-right: 20px;
+}
