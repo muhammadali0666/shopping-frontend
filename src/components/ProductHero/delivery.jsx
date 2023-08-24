@@ -8,7 +8,7 @@ import DelDel from "../../assets/img/del-del.png";
 export const Delivery = () => {
   return (
     <div className="delivery">
-      <h4 className="delivery_paragraph">Доставка</h4>
+      <h4 className="delivery_paragraph">Yetkazib berish</h4>
       <ul className="delivery_list">
         <li className="delivery_item">
           <div className="delivery_box">

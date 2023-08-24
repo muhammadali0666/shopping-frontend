@@ -10,7 +10,7 @@ export const Cheaper = () => {
       style={{ marginBottom: "50px", marginTop: "32px" }}
     >
       <h2 className="cheaper_big_text">
-      Вместе дешевле
+      Birgalikda arzonroq
       </h2>
       <Carousel.Item>
         <div className="cheaper">
@@ -26,11 +26,11 @@ export const Cheaper = () => {
                 />
                 <div className="cheaper_inner">
                   <h4 className="cheaper_paragraph">
-                    Процессор Intel Core i5-10400F, Box (BX8070110400F)
+                    Protsessor Intel Core i5-10400F, Box (BX8070110400F)
                     (BX8070110400F)
                   </h4>
                   <p className="cheaper_p">
-                    3500 <span className="cheaper_span">грн.</span>
+                    3500 <span className="cheaper_span">so'm.</span>
                   </p>
                 </div>
               </li>
@@ -47,11 +47,11 @@ export const Cheaper = () => {
                 />
                 <div className="cheaper_inner">
                   <h4 className="cheaper_paragraph">
-                    Процессор Intel Core i5-10400F, Box (BX8070110400F)
+                    Protsessor Intel Core i5-10400F, Box (BX8070110400F)
                     (BX8070110400F)
                   </h4>
                   <p className="cheaper_p">
-                    3500 <span className="cheaper_span">грн.</span>
+                    3500 <span className="cheaper_span">so'm.</span>
                   </p>
                 </div>
               </li>
@@ -74,11 +74,11 @@ export const Cheaper = () => {
                 />
                 <div className="cheaper_inner">
                   <h4 className="cheaper_paragraph">
-                    Процессор Intel Core i5-10400F, Box (BX8070110400F)
+                    Protsessor Intel Core i5-10400F, Box (BX8070110400F)
                     (BX8070110400F)
                   </h4>
                   <p className="cheaper_p">
-                    3500<span className="cheaper_span">грн.</span>
+                    3500<span className="cheaper_span">so'm.</span>
                   </p>
                 </div>
               </li>
@@ -95,11 +95,11 @@ export const Cheaper = () => {
                 />
                 <div className="cheaper_inner">
                   <h4 className="cheaper_paragraph">
-                    Процессор Intel Core i5-10400F, Box (BX8070110400F)
+                    Protsessor Intel Core i5-10400F, Box (BX8070110400F)
                     (BX8070110400F)
                   </h4>
                   <p className="cheaper_p">
-                    3500 <span className="cheaper_span">грн.</span>
+                    3500 <span className="cheaper_span">so'm.</span>
                   </p>
                 </div>
               </li>
@@ -122,11 +122,11 @@ export const Cheaper = () => {
                 />
                 <div className="cheaper_inner">
                   <h4 className="cheaper_paragraph">
-                    Процессор Intel Core i5-10400F, Box (BX8070110400F)
+                    Protsessor Intel Core i5-10400F, Box (BX8070110400F)
                     (BX8070110400F)
                   </h4>
                   <p className="cheaper_p">
-                    3500 <span className="cheaper_span">грн.</span>
+                    3500 <span className="cheaper_span">so'm.</span>
                   </p>
                 </div>
               </li>
@@ -143,11 +143,11 @@ export const Cheaper = () => {
                 />
                 <div className="cheaper_inner">
                   <h4 className="cheaper_paragraph">
-                    Процессор Intel Core i5-10400F, Box (BX8070110400F)
+                   Protsessor Intel Core i5-10400F, Box (BX8070110400F)
                     (BX8070110400F)
                   </h4>
                   <p className="cheaper_p">
-                    3500 <span className="cheaper_span">грн.</span>
+                    3500 <span className="cheaper_span">so'm.</span>
                   </p>
                 </div>
               </li>
@@ -170,11 +170,11 @@ export const Cheaper = () => {
                 />
                 <div className="cheaper_inner">
                   <h4 className="cheaper_paragraph">
-                    Процессор Intel Core i5-10400F, Box (BX8070110400F)
+                    Protsessor Intel Core i5-10400F, Box (BX8070110400F)
                     (BX8070110400F)
                   </h4>
                   <p className="cheaper_p">
-                    3500<span className="cheaper_span">грн.</span>
+                    3500<span className="cheaper_span">so'm.</span>
                   </p>
                 </div>
               </li>
@@ -191,11 +191,11 @@ export const Cheaper = () => {
                 />
                 <div className="cheaper_inner">
                   <h4 className="cheaper_paragraph">
-                    Процессор Intel Core i5-10400F, Box (BX8070110400F)
+                    Protsessor Intel Core i5-10400F, Box (BX8070110400F)
                     (BX8070110400F)
                   </h4>
                   <p className="cheaper_p">
-                    3500<span className="cheaper_span">грн.</span>
+                    3500<span className="cheaper_span">so'm.</span>
                   </p>
                 </div>
               </li>

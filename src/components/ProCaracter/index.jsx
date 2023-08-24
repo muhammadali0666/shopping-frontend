@@ -20,12 +20,12 @@ export const ProCharacter = () => {
       <ul className="product_hero_list">
         <li className="product_hero_item">
           <NavLink to='/product' style={{textDecoration: "none", color: "black"}}>
-          Все о товаре
+          Hamma mahsulot haqida
           </NavLink>
         </li>
         <li className="product_hero_item">
           <NavLink to={'/productCharacteristic'} style={{textDecoration: "none", color: "black"}}>
-          Характеристики
+          Xususiyatlari
           </NavLink>
           </li>
       </ul>
@@ -34,37 +34,37 @@ export const ProCharacter = () => {
         <div className="product_left_box_extra">
           <div className="characteristics">
             <h3 className="characteristics_paragraph">
-              Основные характеристики
+            Asosiy xususiyatlar
             </h3>
             <ul className="characteristics_list">
               <li className="characteristics_item">
                 <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">Класс</li>
+                  <li className="characteristics_inner_item">Sinf</li>
                   <li className="characteristics_inner_item">
-                    Для работы и дома
+                  Ish va uy uchun
                   </li>
                 </ul>
                 <ul className="characteristics_inner_list">
                   <li className="characteristics_inner_item">
-                    Диагональ экрана
+                  Ekran diagonali
                   </li>
                   <li className="characteristics_inner_item">14"</li>
                 </ul>
                 <ul className="characteristics_inner_list">
                   <li className="characteristics_inner_item">
-                    Разрешение экрана
+                  Ekran o'lchamlari
                   </li>
                   <li className="characteristics_inner_item">1920x1080</li>
                 </ul>
                 <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">Процессор</li>
+                  <li className="characteristics_inner_item">Protsessor</li>
                   <li className="characteristics_inner_item">
                     Intel Pentium Silver
                   </li>
                 </ul>
                 <ul className="characteristics_inner_list">
                   <li className="characteristics_inner_item">
-                    Модель процессора
+                  Protsessor modeli
                   </li>
                   <li className="characteristics_inner_item">
                     Intel Pentium Silver N5000
@@ -72,87 +72,15 @@ export const ProCharacter = () => {
                 </ul>
                 <ul className="characteristics_inner_list">
                   <li className="characteristics_inner_item">
-                    Частота процессора
+                  Protsessor chastotasi
                   </li>
                   <li className="characteristics_inner_item">1.1 - 2.7 ГГц</li>
                 </ul>
                 <ul className="characteristics_inner_list">
                   <li className="characteristics_inner_item">
-                    Объем оперативной памяти
+                  Ram
                   </li>
                   <li className="characteristics_inner_item">4 Gb</li>
-                </ul>
-                <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">
-                    Частота процессора
-                  </li>
-                  <li className="characteristics_inner_item">1.1 - 2.7 ГГц</li>
-                </ul>
-                <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">
-                    Объем оперативной памяти
-                  </li>
-                  <li className="characteristics_inner_item">4 Gb</li>
-                </ul>
-                <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">
-                    Частота процессора
-                  </li>
-                  <li className="characteristics_inner_item">1.1 - 2.7 ГГц</li>
-                </ul>
-                <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">
-                  Класс
-                  </li>
-                  <li className="characteristics_inner_item">Для работы и дома</li>
-                </ul>
-                <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">
-                  Диагональ экрана
-                  </li>
-                  <li className="characteristics_inner_item">1.1 - 2.7 ГГц</li>
-                </ul>
-                <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">
-                    Частота процессора
-                  </li>
-                  <li className="characteristics_inner_item">14"</li>
-                </ul>
-                <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">
-                  Разрешение экрана
-                  </li>
-                  <li className="characteristics_inner_item">1920x1080</li>
-                </ul>
-                <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">
-                  Процессор
-                  </li>
-                  <li className="characteristics_inner_item">	Intel Pentium Silver</li>
-                </ul>
-                <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">
-                  Модель процессора
-                  </li>
-                  <li className="characteristics_inner_item">	Intel Pentium Silver N5000</li>
-                </ul>
-                <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">
-                  Частота процессора
-                  </li>
-                  <li className="characteristics_inner_item">1.1 - 2.7 ГГц</li>
-                </ul>
-                <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">
-                    Частота процессора
-                  </li>
-                  <li className="characteristics_inner_item">1.1 - 2.7 ГГц</li>
-                </ul>
-                <ul className="characteristics_inner_list">
-                  <li className="characteristics_inner_item">
-                    Частота процессора
-                  </li>
-                  <li className="characteristics_inner_item">1.1 - 2.7 ГГц</li>
                 </ul>
               </li>
             </ul>
@@ -163,7 +91,7 @@ export const ProCharacter = () => {
             <div className="process_inner">
               <img src={Laptop} alt="img" className="proccess_inner_img" width={70} height={70}/>
               <h4 className="proccess_inner_paragraph">
-              Ноутбук Vinga Iron S140 Grey (S140-P50464GWP)
+              Noutbuk Vinga Iron S140 Grey (S140-P50464GWP)
               </h4>
             </div>
             <div className="proccess_top">
@@ -176,7 +104,7 @@ export const ProCharacter = () => {
                   width={24}
                   height={24}
                 />
-                В наличии
+           Sotuvda mavjud
               </button>
               <img
                 src={Like}
@@ -188,8 +116,8 @@ export const ProCharacter = () => {
             </div>
             <div className="proccess_animate_next"></div>
             <div className="del_bottom">
-              <p className="del_bottom_p">27 300 грн.</p>
-              <button className="del_bottom_btn">КУПИТЬ</button>
+              <p className="del_bottom_p">1 000 300 so'm.</p>
+              <button className="del_bottom_btn">sotib olish</button>
             </div>
           </div>
         </div>

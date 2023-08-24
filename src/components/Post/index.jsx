@@ -9,7 +9,7 @@ export const Post = () => {
           Kompyuter do'koni va aksessuarlari ZarStore
           </h2>
           <p className="post_p">
-          ZarStore onlayn-do'koni - butun Ukraina kompyuter do'koni
+          ZarStore onlayn-do'koni - butun O'zbekiston kompyuter do'koni
              Siz osongina topishingiz mumkin bo'lgan uskunalar va komponentlar
              eng arzon narxda siz uchun mos kompyuter. Bizning tashrif orqali
              onlayn do'konda siz kompyuterlar va aksessuarlarni sotib olishingiz mumkin,
