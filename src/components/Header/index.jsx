@@ -33,9 +33,9 @@ export const Header = () => {
               </a>
             </li>
             <li className="header_top_item">
-              <a href="#" className="header_top_item_link">
+              <NavLink to={'/contact'} className="header_top_item_link">
                 Bog'lanish
-              </a>
+              </NavLink>
             </li>
           </ul>
           <ul className="header_top_list_next">
