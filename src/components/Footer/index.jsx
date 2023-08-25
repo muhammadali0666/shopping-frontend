@@ -1,4 +1,5 @@
 import "./footer.css";
+import { NavLink } from "react-router-dom";
 import MiniWhatsap from "../../assets/img/s.png";
 import MiniTelegram from "../../assets/img/M.png";
 import Inst from "../../assets/img/instagram.png";
@@ -45,9 +46,9 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="footer_item">
-                <a href="#" className="footer_item_link">
+                <NavLink to={'/news'} className="footer_item_link">
                   Yangiliklar
-                </a>
+                </NavLink>
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
@@ -97,9 +98,9 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="footer_item">
-                <a href="#" className="footer_item_link">
-                  Bosh sahifa
-                </a>
+              <NavLink to={'/'} className="footer_item_link">
+                  Bosh Sahifa
+                </NavLink>
               </li>
             </ul>
             <ul className="footer_list">
