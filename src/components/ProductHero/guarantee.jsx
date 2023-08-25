@@ -5,7 +5,7 @@ import Update from "../../assets/img/update.png";
 export const Guarantee = () => {
   return (
     <div className="guarantee">
-      <h4 className="guarantee_paragraph">Гарантия</h4>
+      <h4 className="guarantee_paragraph">Kafolat</h4>
       <div className="guarantee_box">
         <img
           src={Guar}
@@ -14,7 +14,7 @@ export const Guarantee = () => {
           width={24}
           height={24}
         />
-        <p className="guarantee_p">36 месяцев</p>
+        <p className="guarantee_p">36 oylar</p>
       </div>
       <div className="guarantee_box">
         <img
@@ -24,7 +24,7 @@ export const Guarantee = () => {
           width={24}
           height={24}
         />
-        <p className="guarantee_p">Обмен/возврат товара в течение 14 дней</p>
+        <p className="guarantee_p">14 kun ichida tovarlarni almashtirish / qaytarish</p>
       </div>
     </div>
   );

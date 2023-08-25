@@ -19,11 +19,11 @@ export const Delivery = () => {
               width={24}
               height={24}
             />
-            <p className="del_box_p">Самовывоз из магазина (Днепропетровск)</p>
+            <p className="del_box_p">Do'kondan olib ketish (Samarqand)</p>
           </div>
-          <p className="delivery_p">Отправим сегодня</p>
+          <p className="delivery_p">Bugun yuboring</p>
           <div className="delivery_right_box">
-            <p className="del_right_text">Бесплатно</p>
+            <p className="del_right_text">Tekinga</p>
           </div>
         </li>
         <li className="delivery_item">
@@ -35,12 +35,12 @@ export const Delivery = () => {
               width={24}
               height={24}
             />
-            <p className="del_box_p">Самовывоз из Justin</p>
+            <p className="del_box_p">Samarqanddan olib ketish</p>
           </div>
-          <p className="delivery_p">Отправим сегодня</p>
+          <p className="delivery_p">Bugun yuboring</p>
           <div className="delivery_right_box">
-            <p className="del_right_p">По тарифам перевозчика</p>
-            <p className="del_right_text">Или бесплатно от 5000 грн</p>
+            <p className="del_right_p">Tashuvchining tariflariga ko'ra</p>
+            <p className="del_right_text">Yoki 5000 so'm dan bepul</p>
           </div>
         </li>
         <li className="delivery_item">
@@ -52,12 +52,12 @@ export const Delivery = () => {
               width={32}
               height={32}
             />
-            <p className="del_box_p">Самовывоз  УКРПОШТА</p>
+            <p className="del_box_p">Yetkazmani olib ketish</p>
           </div>
-          <p className="delivery_p">Отправим сегодня</p>
+          <p className="delivery_p">Bugun yuboramiz</p>
           <div className="delivery_right_box">
-            <p className="del_right_p">По тарифам перевозчика</p>
-            <p className="del_right_text">Или бесплатно от 5000 грн</p>
+            <p className="del_right_p">Tashuvchining tariflariga ko'ra</p>
+            <p className="del_right_text">Yoki 5000 so'm dan bepul</p>
           </div>
         </li>
         <li className="delivery_item">
@@ -69,12 +69,12 @@ export const Delivery = () => {
               width={24}
               height={24}
             />
-            <p className="del_box_p">Самовывоз из Новой Почты</p>
+            <p className="del_box_p">Yangi filialdan olib ketish</p>
           </div>
-          <p className="delivery_p">Отправим сегодня</p>
+          <p className="delivery_p">Bugun yuboramiz</p>
           <div className="delivery_right_box">
-            <p className="del_right_p">По тарифам перевозчика</p>
-            <p className="del_right_text">Или бесплатно от 5000 грн</p>
+            <p className="del_right_p">Tashuvchining tariflariga ko'ra</p>
+            <p className="del_right_text">Yoki 5000 so'm dan bepul</p>
           </div>
         </li>
         <li className="delivery_item">
@@ -86,12 +86,12 @@ export const Delivery = () => {
               width={22}
               height={19}
             />
-            <p className="del_box_p">Курьер по вашему адресу</p>
+            <p className="del_box_p">Sizning manzilingiz bo'yicha kurer</p>
           </div>
-          <p className="delivery_p">Отправим сегодня</p>
+          <p className="delivery_p">Bugun yetkazib berish</p>
           <div className="delivery_right_box">
-            <p className="del_right_p">По тарифам перевозчика</p>
-            <p className="del_right_text">Бесплатно от 3000 грн</p>
+            <p className="del_right_p">Tashuvchining tariflariga ko'ra</p>
+            <p className="del_right_text">Yoki 5000 so'm dan bepul</p>
           </div>
         </li>
       </ul>

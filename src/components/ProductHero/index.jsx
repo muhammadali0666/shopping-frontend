@@ -16,19 +16,19 @@ export const Product_hero = () => {
       <div className="container">
         <div className="product_hero_top">
           <h2 className="product_hero_paragraph">
-            Ноутбук Vinga Iron S140 Grey (S140-P50464GWP)
+          Noutbuk Vinga Iron S140 Grey (S140-P50464GWP)
           </h2>
 
           <p className="product_hero_p">
-            Код товара: <span className="product_hero_span">1234</span>
+          Mahsulot kodi: <span className="product_hero_span">1234</span>
           </p>
         </div>
         <ul className="product_hero_list">
           <li className="product_hero_item">
-            <NavLink to={'/product'} style={{textDecoration: "none", color: "black"}}>Все о товаре</NavLink>
+            <NavLink to={'/product'} style={{textDecoration: "none", color: "black"}}>Mahsulot haqida</NavLink>
           </li>
           <li className="product_hero_item">
-            <NavLink to={'/productcharacteristic'} style={{textDecoration: "none", color: "black"}}>Характеристики</NavLink>
+            <NavLink to={'/productcharacteristic'} style={{textDecoration: "none", color: "black"}}>Xususiyatlari</NavLink>
           </li>
         </ul>
         <hr />

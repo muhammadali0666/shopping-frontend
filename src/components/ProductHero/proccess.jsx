@@ -15,7 +15,7 @@ export const Proccess = () => {
             width={24}
             height={24}
           />
-          В наличии
+        Sotuvda mavjud
         </button>
         <img
           src={Like}
@@ -27,8 +27,8 @@ export const Proccess = () => {
       </div>
       <div className="proccess_animate_next"></div>
       <div className="del_bottom">
-        <p className="del_bottom_p">27 300 грн.</p>
-        <button className="del_bottom_btn">КУПИТЬ</button>
+        <p className="del_bottom_p">1 000 000 so'm.</p>
+        <button className="del_bottom_btn">Sotib olish</button>
       </div>
     </div>
   );
