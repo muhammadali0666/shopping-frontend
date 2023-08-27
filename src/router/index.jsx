@@ -10,6 +10,7 @@ import { News } from "../pages/News";
 import { Contact } from "../pages/Contact";
 import { CompiturComponents } from "../pages/CompiturComponents";
 import { Monitors } from "../pages/Monitors";
+import { Computer } from "../pages/Computer";
 
 export const RouterWrapper = () => {
   return (
@@ -23,6 +24,7 @@ export const RouterWrapper = () => {
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/com_components" element={<CompiturComponents/>}/>
       <Route path="/monitor" element={<Monitors/>}/>
+      <Route path="/computer" element={<Computer/>}/> 
       <Route path="*" element={<Error />} />
     </Routes>
   );

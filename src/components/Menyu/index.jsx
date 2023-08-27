@@ -55,7 +55,7 @@ export const Menyu = () => {
           />
         </li>
         <li className="menyu_item">
-          <div className="menyu_box">
+          <NavLink to={'/computer'} className="menyu_box">
             <img
               src={Kampitur}
               alt="icon"
@@ -64,7 +64,7 @@ export const Menyu = () => {
               height={24}
             />
             <p className="menyu_p">Kompyuterlar</p>
-          </div>
+          </NavLink>
           <img
             src={Right}
             alt="motion"

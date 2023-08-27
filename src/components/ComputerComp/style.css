@@ -1,13 +1,14 @@
-.monitor_inner {
+.computer_comp_inner {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.monitor_list {
+.computer_comp_list {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-left: 0;
 }
-.monitor_paragraph {
+.computer_comp_paragraph {
   font-size: 28px;
 font-weight: 600;
 line-height: 32px;
