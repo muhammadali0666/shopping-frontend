@@ -8,6 +8,7 @@ import { ProductPage } from "../pages/Product";
 import { ProductCharacteristic } from "../pages/ProductCharacteristic";
 import { News } from "../pages/News";
 import { Contact } from "../pages/Contact";
+import { CompiturComponents } from "../pages/CompiturComponents";
 
 export const RouterWrapper = () => {
   return (
@@ -19,6 +20,7 @@ export const RouterWrapper = () => {
       <Route path="/productCharacteristic" element={<ProductCharacteristic/>}/>
       <Route path="/news" element={<News/>} />
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/com_components" element={<CompiturComponents/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );

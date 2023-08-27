@@ -10,13 +10,14 @@ import Two from "../../assets/img/2.png"
 import Three from "../../assets/img/3.png"
 import Four from "../../assets/img/4.png"
 import Five from "../../assets/img/5.png"
+import { NavLink } from "react-router-dom";
 
 export const Menyu = () => {
   return (
     <div className="menyu">
       <ul className="menyu_list">
         <li className="menyu_item">
-          <div className="menyu_box">
+          <NavLink to={'/com_components'} className="menyu_box">
             <img
               src={Proccessor}
               alt="icon"
@@ -25,7 +26,7 @@ export const Menyu = () => {
               height={20}
             />
             <p className="menyu_p">Kompyuter komponentlari</p>
-          </div>
+          </NavLink>
           <img
             src={Right}
             alt="motion"

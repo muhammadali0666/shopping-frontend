@@ -1,0 +1,10 @@
+.com_comp_list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.com_comp_inner {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}

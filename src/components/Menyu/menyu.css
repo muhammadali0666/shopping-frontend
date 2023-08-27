@@ -17,6 +17,11 @@
 .menyu_box {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.menyu_box:hover {
+  color: #c9c4c4;
 }
 /* .menyu_img {
 } */
