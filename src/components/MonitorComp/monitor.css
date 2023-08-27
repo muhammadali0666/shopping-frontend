@@ -1,0 +1,9 @@
+.monitor_inner {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.monitor_list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

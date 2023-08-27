@@ -1,5 +1,5 @@
 import "./header.css";
-import Hamburger from "../../assets/img/hamburger.png";
+import Home from "../../assets/img/home.png";
 import User from "../../assets/img/user.png";
 import Logo from "../../assets/img/logo-store.png";
 import Katalog from "../../assets/img/Catalog.png";
@@ -19,7 +19,9 @@ export const Header = () => {
         <div className="container header_top_inner">
           <ul className="header_top_list">
             <li className="header_top_item">
-              <img src={Hamburger} alt="asdas" width={20} height={20} />
+              <NavLink to={'/'}>
+            <i class="fa-solid fa-house" style={{color: '#bdbfc2'}}></i>
+              </NavLink>
             </li>
             <li className="header_top_item">
               <a href="#" className="header_top_item_link">

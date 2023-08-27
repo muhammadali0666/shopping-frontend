@@ -1,0 +1,21 @@
+import { Card } from "../Card"
+import "./monitor.css"
+
+import React from 'react'
+
+export const MonitorComp = () => {
+  return (
+    <div className="monitor">
+      <div className="container">
+        <div className="monitor_inner">
+          <ul className="monitor_list">
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          </ul>
+        </div>
+      </div>
+    </div>
+  )
+}

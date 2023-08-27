@@ -36,7 +36,7 @@ export const Menyu = () => {
           />
         </li>
         <li className="menyu_item">
-          <div className="menyu_box">
+          <NavLink to={'/monitor'} className="menyu_box">
             <img
               src={Monitor}
               alt="icon"
@@ -45,7 +45,7 @@ export const Menyu = () => {
               height={24}
             />
             <p className="menyu_p">Моnitorlar</p>
-          </div>
+          </NavLink>
           <img
             src={Right}
             alt="motion"
