@@ -66,9 +66,9 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="footer_item">
-                <a href="#" className="footer_item_link">
+                <NavLink to={'/contact'} className="footer_item_link">
                   Bog'lanish
-                </a>
+                </NavLink>
               </li>
             </ul>
             <ul className="footer_list">
@@ -110,7 +110,8 @@ export const Footer = () => {
                 </h4>
               </li>
               <li className="footer_item">
-                <a href="#" className="footer_item_link">
+                <a target="_blank"
+                    href="https://t.me/Sh_Muhammadali5" className="footer_item_link">
                   (90) 456-50-25 - Savdo bo'limi
                   <img
                     src={MiniWhatsap}
@@ -138,7 +139,7 @@ export const Footer = () => {
               <h3 className="footer_box_paragraph">Bizni kuzatib boring</h3>
               <ul className="footer_box_list">
                 <li className="footer_box_item">
-                  <a href="#" className="footer_box_link">
+                  <a target="_blank" href="https://instagram.com/muhammadali122222?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" className="footer_box_link">
                     <img
                       src={Inst}
                       alt=""
@@ -149,7 +150,8 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer_box_item">
-                  <a href="#" className="footer_box_link">
+                  <a target="_blank"
+                    href="https://wa.me/904565025" className="footer_box_link">
                     <img
                       src={Whatsapp}
                       alt=""
@@ -160,7 +162,8 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer_box_item">
-                  <a href="#" className="footer_box_link">
+                  <a target="_blank"
+                    href="https://t.me/Sh_Muhammadali5" className="footer_box_link">
                     <img
                       src={Telegram}
                       alt=""
@@ -171,7 +174,7 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer_box_item">
-                  <a href="#" className="footer_box_link">
+                  <a target="_blank" href="https://youtube.com/@dasturlashsari5339?si=Iv2JljUyJbGGmF24" className="footer_box_link">
                     <img
                       src={Youtube}
                       alt=""
@@ -182,7 +185,7 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer_box_item">
-                  <a href="#" className="footer_box_link">
+                  <a target="_blank" href="https://www.linkedin.com/in/muhammadali-shuhratjonov-37b277234" className="footer_box_link">
                     <img
                       src={Linkedin}
                       alt=""
@@ -193,7 +196,7 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer_box_item">
-                  <a href="#" className="footer_box_link">
+                  <a target="_blank" href="https://www.facebook.com/profile.php?id=100076524691842&mibextid=ZbWKwL" className="footer_box_link">
                     <img
                       src={Facebook}
                       alt=""
