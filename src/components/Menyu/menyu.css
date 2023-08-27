@@ -3,6 +3,7 @@
 }
 .menyu_list {
   margin-top: 32px;
+  padding-left: 0;
 }
 .menyu_item {
   border-bottom: 1px solid #eae6e6;

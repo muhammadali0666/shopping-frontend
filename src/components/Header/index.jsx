@@ -7,8 +7,12 @@ import Like from "../../assets/img/like.png";
 import Shopping from "../../assets/img/shopping-cart.png";
 import Search from "../../assets/img/search.png";
 import { NavLink } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+import { useState } from "react";
 
 export const Header = () => {
+  const [lgShow, setLgShow] = useState(false)
   return (
     <div className="header">
       <div className="header_top">
@@ -62,10 +66,33 @@ export const Header = () => {
         <div className="header_inner">
           {/* header_bottom  */}
           <div className="header_bottom">
+            
+
+
+      <Modal
+        size="lg"
+        show={lgShow}
+        onHide={() => setLgShow(false)}
+        aria-labelledby="example-modal-sizes-title-lg"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="example-modal-sizes-title-lg">
+            Large Modal
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>...</Modal.Body>
+      </Modal>
+
+
+
+
+
+
+
             <a href="#" className="header_logo_link">
               <img src={Logo} alt="" className="header_logo" width={104} height={40}/>
             </a>
-            <button className="header_btn">
+            <button className="header_btn" onClick={() => setLgShow(true)}>
               Mahsulot turlari
               <img
                 src={Katalog}
