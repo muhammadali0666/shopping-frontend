@@ -9,9 +9,9 @@ import Youtube from "../../assets/img/youtube.png";
 import Telegram from "../../assets/img/telegram.png";
 import Linkedin from "../../assets/img/linkedin.png";
 import Send from "../../assets/img/send.png";
-import FooterLogo from "../../assets/img/logo-store.png"
-import Visa from "../../assets/img/visa.png"
-import Master from "../../assets/img/mastercard white.png"
+import FooterLogo from "../../assets/img/logo-store.png";
+import Visa from "../../assets/img/visa.png";
+import Master from "../../assets/img/mastercard white.png";
 
 export const Footer = () => {
   return (
@@ -42,31 +42,31 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                TSS
+                  TSS
                 </a>
               </li>
               <li className="footer_item">
-                <NavLink to={'/news'} className="footer_item_link">
+                <NavLink to={"/news"} className="footer_item_link">
                   Yangiliklar
                 </NavLink>
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                Blog
+                  Blog
                 </a>
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                Biz haqimizda
+                  Biz haqimizda
                 </a>
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                Maxfiylik siyosati
+                  Maxfiylik siyosati
                 </a>
               </li>
               <li className="footer_item">
-                <NavLink to={'/contact'} className="footer_item_link">
+                <NavLink to={"/contact"} className="footer_item_link">
                   Bog'lanish
                 </NavLink>
               </li>
@@ -74,7 +74,7 @@ export const Footer = () => {
             <ul className="footer_list">
               <li className="footer_item">
                 <h4 href="#" className="footer_item_paragraph">
-                Xizmatlar va xizmatlar
+                  Xizmatlar va xizmatlar
                 </h4>
               </li>
               <li className="footer_item">
@@ -84,7 +84,7 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                Kompyuter va ofis jihozlarini ta'mirlash
+                  Kompyuter va ofis jihozlarini ta'mirlash
                 </a>
               </li>
               <li className="footer_item">
@@ -94,11 +94,11 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                Hamkorlik
+                  Hamkorlik
                 </a>
               </li>
               <li className="footer_item">
-              <NavLink to={'/'} className="footer_item_link">
+                <NavLink to={"/"} className="footer_item_link">
                   Bosh Sahifa
                 </NavLink>
               </li>
@@ -110,8 +110,11 @@ export const Footer = () => {
                 </h4>
               </li>
               <li className="footer_item">
-                <a target="_blank"
-                    href="https://t.me/Sh_Muhammadali5" className="footer_item_link">
+                <a
+                  target="_blank"
+                  href="https://t.me/Sh_Muhammadali5"
+                  className="footer_item_link"
+                >
                   (90) 456-50-25 - Savdo bo'limi
                   <img
                     src={MiniWhatsap}
@@ -131,7 +134,7 @@ export const Footer = () => {
               </li>
               <li className="footer_item">
                 <a href="#" className="footer_item_link">
-                 Dushanba-Yakshanba 9:00-19:00
+                  Dushanba-Yakshanba 9:00-19:00
                 </a>
               </li>
             </ul>
@@ -139,7 +142,11 @@ export const Footer = () => {
               <h3 className="footer_box_paragraph">Bizni kuzatib boring</h3>
               <ul className="footer_box_list">
                 <li className="footer_box_item">
-                  <a target="_blank" href="https://instagram.com/muhammadali122222?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" className="footer_box_link">
+                  <a
+                    target="_blank"
+                    href="https://instagram.com/muhammadali122222?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
+                    className="footer_box_link"
+                  >
                     <img
                       src={Inst}
                       alt=""
@@ -150,8 +157,11 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer_box_item">
-                  <a target="_blank"
-                    href="https://wa.me/904565025" className="footer_box_link">
+                  <a
+                    target="_blank"
+                    href="https://wa.me/904565025"
+                    className="footer_box_link"
+                  >
                     <img
                       src={Whatsapp}
                       alt=""
@@ -162,8 +172,11 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer_box_item">
-                  <a target="_blank"
-                    href="https://t.me/Sh_Muhammadali5" className="footer_box_link">
+                  <a
+                    target="_blank"
+                    href="https://t.me/Sh_Muhammadali5"
+                    className="footer_box_link"
+                  >
                     <img
                       src={Telegram}
                       alt=""
@@ -174,7 +187,11 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer_box_item">
-                  <a target="_blank" href="https://youtube.com/@dasturlashsari5339?si=Iv2JljUyJbGGmF24" className="footer_box_link">
+                  <a
+                    target="_blank"
+                    href="https://youtube.com/@dasturlashsari5339?si=Iv2JljUyJbGGmF24"
+                    className="footer_box_link"
+                  >
                     <img
                       src={Youtube}
                       alt=""
@@ -185,7 +202,11 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer_box_item">
-                  <a target="_blank" href="https://www.linkedin.com/in/muhammadali-shuhratjonov-37b277234" className="footer_box_link">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/muhammadali-shuhratjonov-37b277234"
+                    className="footer_box_link"
+                  >
                     <img
                       src={Linkedin}
                       alt=""
@@ -196,7 +217,11 @@ export const Footer = () => {
                   </a>
                 </li>
                 <li className="footer_box_item">
-                  <a target="_blank" href="https://www.facebook.com/profile.php?id=100076524691842&mibextid=ZbWKwL" className="footer_box_link">
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/profile.php?id=100076524691842&mibextid=ZbWKwL"
+                    className="footer_box_link"
+                  >
                     <img
                       src={Facebook}
                       alt=""
@@ -207,7 +232,9 @@ export const Footer = () => {
                   </a>
                 </li>
               </ul>
-              <h4 className="footer_box_paragraph">Chegirmalarga obuna bo'ling</h4>
+              <h4 className="footer_box_paragraph">
+                Chegirmalarga obuna bo'ling
+              </h4>
               <form className="footer_box_form">
                 <input
                   type="text"
@@ -239,8 +266,8 @@ export const Footer = () => {
                   />
                 </a>
                 <p className="footer_bottom_p">
-                  {new Date().getFullYear()} ZarStore onlayn-do'koni
-                   huquqlar himoyalangan
+                  {new Date().getFullYear()} ZarStore onlayn-do'koni huquqlar
+                  himoyalangan
                 </p>
               </li>
               <li className="footer_bottom_item">
