@@ -1,0 +1,17 @@
+.laptop_inner {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.laptop_list {
+  display: flex;
+  padding-left: 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.laptop_paragraph {
+  font-size: 36px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0em;
+margin-bottom: 24px;
+}
