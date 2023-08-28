@@ -93,7 +93,7 @@ export const Menyu = () => {
           />
         </li>
         <li className="menyu_item">
-          <div className="menyu_box">
+          <NavLink to={'/consol'} className="menyu_box">
             <img
               src={Controller}
               alt="icon"
@@ -102,7 +102,7 @@ export const Menyu = () => {
               height={20}
             />
             <p className="menyu_p">O'yin konsollari</p>
-          </div>
+          </NavLink>
           <img
             src={Right}
             alt="motion"
