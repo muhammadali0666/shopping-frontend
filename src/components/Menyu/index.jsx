@@ -131,7 +131,7 @@ export const Menyu = () => {
           />
         </li>
         <li className="menyu_item">
-          <div className="menyu_box">
+          <NavLink to={'/planshet'} className="menyu_box">
             <img
               src={Two}
               alt="icon"
@@ -140,7 +140,7 @@ export const Menyu = () => {
               height={20}
             />
             <p className="menyu_p">Planshetlar</p>
-          </div>
+          </NavLink>
           <img
             src={Right}
             alt="motion"
