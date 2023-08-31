@@ -169,7 +169,7 @@ export const Menyu = () => {
           />
         </li>
         <li className="menyu_item">
-          <div className="menyu_box">
+          <NavLink to={'/kalonka'} className="menyu_box">
             <img
               src={Four}
               alt="icon"
@@ -178,7 +178,7 @@ export const Menyu = () => {
               height={20}
             />
             <p className="menyu_p">Kalonkalar</p>
-          </div>
+          </NavLink>
           <img
             src={Right}
             alt="motion"
@@ -188,7 +188,7 @@ export const Menyu = () => {
           />
         </li>
         <li className="menyu_item">
-          <div className="menyu_box">
+          <NavLink to={'/wifi'} className="menyu_box">
             <img
               src={Five}
               alt="icon"
@@ -197,7 +197,7 @@ export const Menyu = () => {
               height={23}
             />
             <p className="menyu_p">tarmoq apparati</p>
-          </div>
+          </NavLink>
           <img
             src={Right}
             alt="motion"

@@ -15,6 +15,8 @@ import { Consol } from "../pages/Consol";
 import { LaptopAcsessuar } from "../pages/LaptopAcsesuarlar";
 import { Planshet } from "../pages/Planshet";
 import { Printer } from "../pages/Printer";
+import { Kalonkalar } from "../pages/Kalonkalar";
+import { WiFi } from "../pages/WIFI";
 
 export const RouterWrapper = () => {
   return (
@@ -34,6 +36,8 @@ export const RouterWrapper = () => {
       <Route path="/acsessuar" element={<LaptopAcsessuar/>}/>
       <Route path="/planshet" element={<Planshet/>}/>
       <Route path="/printer" element={<Printer/>}/> 
+      <Route path="/kalonka" element={<Kalonkalar/>}/>
+      <Route path="/wifi" element={<WiFi/>} />
       <Route path="*" element={<Error />} />
     </Routes>
   );
