@@ -150,7 +150,7 @@ export const Menyu = () => {
           />
         </li>
         <li className="menyu_item">
-          <div className="menyu_box">
+          <NavLink to={'/printer'} className="menyu_box">
             <img
               src={Three}
               alt="icon"
@@ -159,7 +159,7 @@ export const Menyu = () => {
               height={24}
             />
             <p className="menyu_p">Printerlar</p>
-          </div>
+          </NavLink>
           <img
             src={Right}
             alt="motion"

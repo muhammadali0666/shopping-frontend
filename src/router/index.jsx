@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Register } from "../pages/Register";
 import { Login } from "../pages/Login";
@@ -15,6 +14,7 @@ import { Laptops } from "../pages/Laptops";
 import { Consol } from "../pages/Consol";
 import { LaptopAcsessuar } from "../pages/LaptopAcsesuarlar";
 import { Planshet } from "../pages/Planshet";
+import { Printer } from "../pages/Printer";
 
 export const RouterWrapper = () => {
   return (
@@ -33,6 +33,7 @@ export const RouterWrapper = () => {
       <Route path="/consol" element={<Consol/>} />
       <Route path="/acsessuar" element={<LaptopAcsessuar/>}/>
       <Route path="/planshet" element={<Planshet/>}/>
+      <Route path="/printer" element={<Printer/>}/> 
       <Route path="*" element={<Error />} />
     </Routes>
   );
