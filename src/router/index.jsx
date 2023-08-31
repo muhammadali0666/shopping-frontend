@@ -13,6 +13,7 @@ import { Monitors } from "../pages/Monitors";
 import { Computer } from "../pages/Computer";
 import { Laptops } from "../pages/Laptops";
 import { Consol } from "../pages/Consol";
+import { LaptopAcsessuar } from "../pages/LaptopAcsesuarlar";
 
 export const RouterWrapper = () => {
   return (
@@ -29,6 +30,7 @@ export const RouterWrapper = () => {
       <Route path="/computer" element={<Computer/>}/> 
       <Route path='/laptop' element={<Laptops/>} />
       <Route path="/consol" element={<Consol/>} />
+      <Route path="/acsessuar" element={<LaptopAcsessuar/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );

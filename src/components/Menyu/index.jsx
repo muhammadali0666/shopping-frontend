@@ -112,7 +112,7 @@ export const Menyu = () => {
           />
         </li>
         <li className="menyu_item">
-          <div className="menyu_box">
+          <NavLink to={'acsessuar'} className="menyu_box">
             <img
               src={One}
               alt="icon"
@@ -121,7 +121,7 @@ export const Menyu = () => {
               height={12}
             />
             <p className="menyu_p">Noutbuklar uchun aksessuarlar</p>
-          </div>
+          </NavLink>
           <img
             src={Right}
             alt="motion"

@@ -1,0 +1,16 @@
+.acesuar_inner {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.acsesuar_paragraph {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  margin-bottom: 24px;
+}
+.acsesuar_list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
