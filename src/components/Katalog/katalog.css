@@ -1,0 +1,29 @@
+.katalog {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.katalog_left {
+  margin-left: 30px;
+}
+.katalog_list {
+  padding-left: 0;
+}
+.katalog_paragrph {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+/* .katalog_item {
+} */
+.katalog_link {
+  text-decoration: none;
+  color: black;
+}
+.katalog_link:hover {
+  color: rgb(194, 194, 194);
+}
+/* .katalog_middle {
+} */
+.katalog_right {
+  margin-right: 30px;
+}

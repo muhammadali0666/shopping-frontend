@@ -148,6 +148,8 @@
 .header_icons_item+.header_icons_item {
   margin-left: 15px;
 }
-
+.katalog_wrapper {
+  display: flex;
+}
 /* .header_icons_img {
 } */
