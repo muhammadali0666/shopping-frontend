@@ -24,3 +24,21 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.template_inner {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.template_paragraph {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.template_list {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

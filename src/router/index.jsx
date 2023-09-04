@@ -18,6 +18,7 @@ import { Printer } from "../pages/Printer";
 import { Kalonkalar } from "../pages/Kalonkalar";
 import { WiFi } from "../pages/WIFI";
 import { MacBook } from "../pages/Modal/MacBook";
+import { Asus } from "../pages/Modal/Asus";
 
 export const RouterWrapper = () => {
   return (
@@ -40,6 +41,7 @@ export const RouterWrapper = () => {
       <Route path="/kalonka" element={<Kalonkalar/>}/>
       <Route path="/wifi" element={<WiFi/>} />
       <Route path="/macbook" element={<MacBook/>}/>
+      <Route path="/asus" element={<Asus/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );
