@@ -20,6 +20,7 @@ import { WiFi } from "../pages/WIFI";
 import { MacBook } from "../pages/Modal/MacBook";
 import { Asus } from "../pages/Modal/Asus";
 import { Lenovo } from "../pages/Modal/Lenovo";
+import { Hp } from "../pages/Modal/HP";
 
 export const RouterWrapper = () => {
   return (
@@ -44,6 +45,7 @@ export const RouterWrapper = () => {
       <Route path="/macbook" element={<MacBook/>}/>
       <Route path="/asus" element={<Asus/>}/>
       <Route path="/lenovo" element={<Lenovo/>}/> 
+      <Route path="/hp" element={<Hp/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );
