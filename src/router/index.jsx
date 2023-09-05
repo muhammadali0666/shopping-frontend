@@ -27,6 +27,7 @@ import { Sony } from "../pages/Modal/Sony";
 import { Samsung } from "../pages/Modal/Samsung";
 import { Toshiba } from "../pages/Modal/Toshiba";
 import { MouseLogitech } from "../pages/Modal/MouseLogitech";
+import { MouseRazer } from "../pages/Modal/MouseRazer";
 
 export const RouterWrapper = () => {
   return (
@@ -58,6 +59,7 @@ export const RouterWrapper = () => {
       <Route path="/samsung" element={<Samsung/>}/>
       <Route path="/toshiba" element={<Toshiba/>}/>
       <Route path="/logitech" element={<MouseLogitech/>}/>
+      <Route path="/razer" element={<MouseRazer/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );

@@ -45,7 +45,7 @@ export const Katalog = () => {
             <NavLink className="katalog_link" to={'/logitech'}>Logitech</NavLink>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link">Razer</NavLink>
+            <NavLink className="katalog_link" to={'/razer'}>Razer</NavLink>
           </li>
           <li className="katalog_item">
             <NavLink className="katalog_link">Microsoft</NavLink>
