@@ -30,6 +30,7 @@ import { MouseLogitech } from "../pages/Modal/MouseLogitech";
 import { MouseRazer } from "../pages/Modal/MouseRazer";
 import { MouseMicrosoft } from "../pages/Modal/MouseMicrosoft";
 import { MouseSteelSeries } from "../pages/Modal/MouseSteelSeries";
+import { MouseRoccat } from "../pages/Modal/MouseRoccat";
 
 export const RouterWrapper = () => {
   return (
@@ -64,6 +65,7 @@ export const RouterWrapper = () => {
       <Route path="/razer" element={<MouseRazer/>}/>
       <Route path="/microsoft" element={<MouseMicrosoft/>}/>
       <Route path="/steelseries" element={<MouseSteelSeries/>}/>
+      <Route path="/roccat" element={<MouseRoccat/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );
