@@ -46,6 +46,7 @@ import { MonitorLG } from "../pages/Modal/MonitorLG";
 import { MonitorMSI } from "../pages/Modal/MonitorMSI";
 import { MonitorSamsung } from "../pages/Modal/MonitorSamsung";
 import { PrinterHp } from "../pages/Modal/PrinterHP";
+import { PrinterCanon } from "../pages/Modal/PrinterCanon";
 
 export const RouterWrapper = () => {
   return (
@@ -96,6 +97,7 @@ export const RouterWrapper = () => {
       <Route path="/monitor_msi" element={<MonitorMSI/>}/>
       <Route path="/monitor_samsung" element={<MonitorSamsung/>}/>
       <Route path="/printer_hp" element={<PrinterHp/>}/>
+      <Route path="/printer_canon" element={<PrinterCanon/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );
