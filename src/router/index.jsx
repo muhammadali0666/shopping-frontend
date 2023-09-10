@@ -42,6 +42,7 @@ import { MonitorAcer } from "../pages/Modal/MonitorAcer";
 import { MonitorAsus } from "../pages/Modal/MonitorAsus";
 import { MonitorDell } from "../pages/Modal/MonitorDell";
 import { MonitorGigabayte } from "../pages/Modal/MonitorGigabayte";
+import { MonitorLG } from "../pages/Modal/MonitorLG";
 
 export const RouterWrapper = () => {
   return (
@@ -88,6 +89,7 @@ export const RouterWrapper = () => {
       <Route path="/monitor_asus" element={<MonitorAsus/>}/>
       <Route path="/monitor_dell" element={<MonitorDell/>}/>
       <Route path="/monitor_gigabayte" element={<MonitorGigabayte/>}/>
+      <Route path="/monitor_lg" element={<MonitorLG/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );

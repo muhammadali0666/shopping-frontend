@@ -97,7 +97,7 @@ export const Katalog = () => {
             <NavLink className="katalog_link" to={'/monitor_gigabayte'}>Gigabayte</NavLink>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link">LG</NavLink>
+            <NavLink className="katalog_link" to={'/monitor_lg'}>LG</NavLink>
           </li>
           <li className="katalog_item">
             <NavLink className="katalog_link">MSI</NavLink>
