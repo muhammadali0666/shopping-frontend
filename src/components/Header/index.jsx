@@ -7,21 +7,22 @@ import Like from "../../assets/img/like.png";
 import Shopping from "../../assets/img/shopping-cart.png";
 import Search from "../../assets/img/search.png";
 import { NavLink } from "react-router-dom";
-import Modal from 'react-bootstrap/Modal';
+import Modal from "react-bootstrap/Modal";
 import { useState } from "react";
 import { Menyu } from "../Menyu";
 import { Katalog } from "../Katalog";
 
 export const Header = () => {
-  const [lgShow, setLgShow] = useState(false)
+  const [lgShow, setLgShow] = useState(false);
+
   return (
     <div className="header">
       <div className="header_top">
         <div className="container header_top_inner">
           <ul className="header_top_list">
             <li className="header_top_item">
-              <NavLink to={'/'}>
-            <i class="fa-solid fa-house" style={{color: '#bdbfc2'}}></i>
+              <NavLink to={"/"}>
+                <i class="fa-solid fa-house" style={{ color: "#bdbfc2" }}></i>
               </NavLink>
             </li>
             <li className="header_top_item">
@@ -40,7 +41,7 @@ export const Header = () => {
               </a>
             </li>
             <li className="header_top_item">
-              <NavLink to={'/contact'} className="header_top_item_link">
+              <NavLink to={"/contact"} className="header_top_item_link">
                 Bog'lanish
               </NavLink>
             </li>
@@ -58,7 +59,11 @@ export const Header = () => {
               </a>
             </li>
             <li className="header_top_item_next">
-              <NavLink to={'/register'} href="#" className="header_top_item_link_next">
+              <NavLink
+                to={"/register"}
+                href="#"
+                className="header_top_item_link_next"
+              >
                 <img src={User} alt="asdas" width={32} height={32} />
               </NavLink>
             </li>
@@ -69,39 +74,38 @@ export const Header = () => {
         <div className="header_inner">
           {/* header_bottom  */}
           <div className="header_bottom">
-            
-
-
-      <Modal
-        size="lg"
-        show={lgShow}
-        onHide={() => setLgShow(false)}
-        aria-labelledby="example-modal-sizes-title-lg"
-        className="modal"
-        // style={{height: "100vh", overflowY: "scroll"}}
-      >
-        <Modal.Header closeButton>
-          <Modal.Title id="example-modal-sizes-title-lg">
-            Mahsulot turlari
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <div className="katalog_wrapper"         style={{height: "60vh", overflowY: "scroll"}}
->
-       <Menyu/>
-       <Katalog/>
-          </div>
-        </Modal.Body>
-      </Modal>
-
-
-
-
-
-
+            <Modal
+              size="lg"
+              show={lgShow}
+              onHide={() => setLgShow(false)}
+              aria-labelledby="example-modal-sizes-title-lg"
+              className="modal"
+              // style={{height: "100vh", overflowY: "scroll"}}
+            >
+              <Modal.Header closeButton>
+                <Modal.Title id="example-modal-sizes-title-lg">
+                  Mahsulot turlari
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <div
+                  className="katalog_wrapper"
+                  style={{ height: "60vh", overflowY: "scroll" }}
+                >
+                  <Menyu />
+                  <Katalog />
+                </div>
+              </Modal.Body>
+            </Modal>
 
             <a href="#" className="header_logo_link">
-              <img src={Logo} alt="" className="header_logo" width={104} height={40}/>
+              <img
+                src={Logo}
+                alt=""
+                className="header_logo"
+                width={104}
+                height={40}
+              />
             </a>
             <button className="header_btn" onClick={() => setLgShow(true)}>
               Mahsulot turlari
