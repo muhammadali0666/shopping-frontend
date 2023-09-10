@@ -39,6 +39,7 @@ import { MouseZowie } from "../pages/Modal/MouseZowie";
 import { MouseMSI } from "../pages/Modal/MouseMSI";
 import { MouseRedroger } from "../pages/Modal/MouseRedRoger";
 import { MonitorAcer } from "../pages/Modal/MonitorAcer";
+import { MonitorAsus } from "../pages/Modal/MonitorAsus";
 
 export const RouterWrapper = () => {
   return (
@@ -82,6 +83,7 @@ export const RouterWrapper = () => {
       <Route path="/msi" element={<MouseMSI/>}/>
       <Route path="/redroger" element={<MouseRedroger/>}/>
       <Route path="/monitor_acer" element={<MonitorAcer/>}/>
+      <Route path="/monitor_asus" element={<MonitorAsus/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );
