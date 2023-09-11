@@ -57,6 +57,7 @@ import { RouterMicroTik } from "../pages/Modal/RouterMicroTik";
 import { RouterHuawei } from "../pages/Modal/RouterHuawei";
 import { RouterXiaomi } from "../pages/Modal/RouterXiaomi";
 import { RouterCisco } from "../pages/Modal/RouterCisco";
+import { RouterSiklu } from "../pages/Modal/RouterSiklu";
 
 export const RouterWrapper = () => {
   return (
@@ -118,6 +119,7 @@ export const RouterWrapper = () => {
       <Route path="/huawei" element={<RouterHuawei/>}/>
       <Route path="/xiaomi" element={<RouterXiaomi/>}/>
       <Route path="/cisco" element={<RouterCisco/>}/>
+      <Route path="/siklu" element={<RouterSiklu/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );
