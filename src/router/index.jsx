@@ -54,6 +54,7 @@ import { RouterTPLink } from "../pages/Modal/RouterTPLink";
 import { RouterTenda } from "../pages/Modal/RouterTenda";
 import { RouterNetis } from "../pages/Modal/RouterNetis";
 import { RouterMicroTik } from "../pages/Modal/RouterMicroTik";
+import { RouterHuawei } from "../pages/Modal/RouterHuawei";
 
 export const RouterWrapper = () => {
   return (
@@ -112,6 +113,7 @@ export const RouterWrapper = () => {
       <Route path="/tenda" element={<RouterTenda/>}/>
       <Route path="/netis" element={<RouterNetis/>}/>
       <Route path="/microtik" element={<RouterMicroTik/>}/>
+      <Route path="/huawei" element={<RouterHuawei/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );
