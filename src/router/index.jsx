@@ -59,6 +59,7 @@ import { RouterXiaomi } from "../pages/Modal/RouterXiaomi";
 import { RouterCisco } from "../pages/Modal/RouterCisco";
 import { RouterSiklu } from "../pages/Modal/RouterSiklu";
 import { RouterMERCUSYS } from "../pages/Modal/RouterMercusys";
+import { RouterSNR } from "../pages/Modal/RouterSNR";
 
 export const RouterWrapper = () => {
   return (
@@ -122,6 +123,7 @@ export const RouterWrapper = () => {
       <Route path="/cisco" element={<RouterCisco/>}/>
       <Route path="/siklu" element={<RouterSiklu/>}/>
       <Route path="/mercusys" element={<RouterMERCUSYS/>}/>
+      <Route path="/snr" element={<RouterSNR/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );
