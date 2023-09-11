@@ -51,6 +51,7 @@ import { PrinterXerox } from "../pages/Modal/PrinterXeroX";
 import { PrinterBrother } from "../pages/Modal/PrinterBrother";
 import { PrinterEpson } from "../pages/Modal/PrinterEpson";
 import { RouterTPLink } from "../pages/Modal/RouterTPLink";
+import { RouterTenda } from "../pages/Modal/RouterTenda";
 
 export const RouterWrapper = () => {
   return (
@@ -106,6 +107,7 @@ export const RouterWrapper = () => {
       <Route path="/printer_brother" element={<PrinterBrother/>}/>
       <Route path="/printer_epson" element={<PrinterEpson/>}/>
       <Route path="/tp_link" element={<RouterTPLink/>}/>
+      <Route path="/tenda" element={<RouterTenda/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );
