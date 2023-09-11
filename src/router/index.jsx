@@ -50,6 +50,7 @@ import { PrinterCanon } from "../pages/Modal/PrinterCanon";
 import { PrinterXerox } from "../pages/Modal/PrinterXeroX";
 import { PrinterBrother } from "../pages/Modal/PrinterBrother";
 import { PrinterEpson } from "../pages/Modal/PrinterEpson";
+import { RouterTPLink } from "../pages/Modal/RouterTPLink";
 
 export const RouterWrapper = () => {
   return (
@@ -104,6 +105,7 @@ export const RouterWrapper = () => {
       <Route path="/printer_xerox" element={<PrinterXerox/>}/>
       <Route path="/printer_brother" element={<PrinterBrother/>}/>
       <Route path="/printer_epson" element={<PrinterEpson/>}/>
+      <Route path="/tp_link" element={<RouterTPLink/>}/>
       <Route path="*" element={<Error />} />
     </Routes>
   );
