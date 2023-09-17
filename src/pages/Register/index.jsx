@@ -2,6 +2,7 @@ import React from "react";
 import "./register.css";
 import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
+import axios from "axios";
 
 export const Register = () => {
   const Navigate = useNavigate();
@@ -10,20 +11,20 @@ export const Register = () => {
   const [password, setPassword] = useState("");
   const [phoneNumber, setPhoneNumber] = useState(null);
 
+  const data = {
+    username: username,
+    email: email,
+    password: password,
+    phoneNumber: 34343534,
+  };
+
   const authRegister = () => {
-    fetch(`http://localhost:4001/register`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        username: username,
-        email: email,
-        password: password,
-        phoneNumber: 34343534,
-      }),
-    })
-      .then((res) => res.json())
+    axios
+      .post(`http://localhost:4001/register`, data, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
       .then((data) => alert(data.msg));
     Navigate("/login");
   };
