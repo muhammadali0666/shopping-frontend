@@ -1,61 +1,88 @@
+import React from "react";
 import "./register.css";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 export const Register = () => {
+  const Navigate = useNavigate();
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState(null);
+
+  const authRegister = () => {
+    fetch(`http://localhost:4001/register`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        username: username,
+        email: email,
+        password: password,
+        phoneNumber: 34343534,
+      }),
+    })
+      .then((res) => res.json())
+      .then((data) => alert(data.msg));
+    Navigate("/login");
+  };
 
   return (
-    <div className="container register_page">
-      <Form className="register_form">
-        <h1 className="register_paragraph">Sign up</h1>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Username</Form.Label>
-          <Form.Control
+    <div className="container">
+      <h1 className="form-title">Registration</h1>
+      <form className="register_form" onSubmit={authRegister}>
+        <label htmlFor="username" className="register_label">
+          username
+          <input
             type="text"
-            placeholder="Your username"
-            className="register_input"
-            required
+            id="username"
+            className="input-field"
+            placeholder="your username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control
+        </label>
+        <label htmlFor="email" className="register_label">
+          email
+          <input
             type="email"
-            placeholder="name@example.com"
+            id="email"
+            className="input-field"
+            placeholder="your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            required
           />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Password</Form.Label>
-          <Form.Control
+        </label>
+        <label htmlFor="password" className="register_label">
+          password
+          <input
             type="password"
+            id="password"
+            className="input-field"
             placeholder="your password"
-            required
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-        </Form.Group>
-        <NavLink to='/login' className='navigate'>
-          login?
+        </label>
+        <label htmlFor="phone" className="register_label">
+          phone number
+          <input
+            type="number"
+            id="phone"
+            className="input-field"
+            placeholder="your phone number"
+            value={phoneNumber}
+            onChange={(e) => setPhoneNumber(e.target.value)}
+          />
+        </label>
+        <NavLink className="auth_navigate" to="/login">
+          Login
         </NavLink>
-        <Button
-          className="register_btn btn btn-primary"
-          variant="flat"
-          size="xxl"
-          type="submit"
-        >
+        <button className="sign-up-button" type="submit">
           register
-        </Button>
-      </Form>
+        </button>
+      </form>
     </div>
   );
 };

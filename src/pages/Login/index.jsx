@@ -32,7 +32,7 @@ export const Login = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
         </Form.Group>
-        <NavLink to='/' className='navigate'>
+        <NavLink to='/register' className='navigate'>
           register?
         </NavLink>
         <Button
