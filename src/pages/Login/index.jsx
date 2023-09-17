@@ -1,49 +1,77 @@
+import React from "react";
 import "./login.css";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 export const Login = () => {
+  const Navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  const data = {
+    email: email,
+    password: password,
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const data = {
+      email: email,
+      password: password,
+    };
+
+    fetch("http://localhost:4001/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        if (data.token) {
+          localStorage.setItem("token", data.token);
+          alert(data.msg);
+        }
+        if (data.token) {
+          window.location.href = "/";
+        }
+      });
+  };
+
   return (
-    <div className="container register_page">
-      <Form className="register_form">
-        <h1 className="register_paragraph">Sign in</h1>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control
+    <div className="container">
+      <h1 className="form-title">Sign in</h1>
+      <form className="register_form" onSubmit={handleSubmit}>
+        <label htmlFor="email" className="register_label">
+          email
+          <input
             type="email"
-            placeholder="name@example.com"
+            id="email"
+            className="input-field"
+            placeholder="your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            required
           />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Password</Form.Label>
-          <Form.Control
+        </label>
+        <label htmlFor="password" className="register_label">
+          password
+          <input
             type="password"
+            id="password"
+            className="input-field"
             placeholder="your password"
-            required
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-        </Form.Group>
-        <NavLink to='/register' className='navigate'>
-          register?
+        </label>
+        <NavLink className="auth_navigate" to="/register">
+          Register
         </NavLink>
-        <Button
-          className="register_btn btn btn-primary"
-          variant="flat"
-          size="xxl"
-          type="submit"
-        >
+        <button className="sign-up-button" type="submit">
           login
-        </Button>
-      </Form>
+        </button>
+      </form>
     </div>
   );
 };

@@ -15,7 +15,7 @@ export const Register = () => {
     username: username,
     email: email,
     password: password,
-    phoneNumber: 34343534,
+    phoneNumber: phoneNumber,
   };
 
   const authRegister = () => {
@@ -25,13 +25,13 @@ export const Register = () => {
           "Content-Type": "application/json",
         },
       })
-      .then((data) => alert(data.msg));
-    Navigate("/login");
+      .then((datas) => alert(datas.data.msg));
+      Navigate('/login')
   };
 
   return (
     <div className="container">
-      <h1 className="form-title">Registration</h1>
+      <h1 className="form-title">Sign up</h1>
       <form className="register_form" onSubmit={authRegister}>
         <label htmlFor="username" className="register_label">
           username

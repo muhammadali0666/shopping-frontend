@@ -1,37 +1,41 @@
-.btn-flat {
-  background-color: purple;
-  color: white;
-}
-
-.btn-xxl {
-  padding: 1rem 1.5rem;
-  font-size: 1.5rem;
+.form-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10%;
+  margin-bottom: 40px;
 }
 .register_form {
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.register_paragraph{
-  text-align: center;
-  margin-top: 100px;
+.register_label {
+display: flex;
+flex-direction: column;
+font-size: 16px;
+
 }
-.register_btn{
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #20b8f5;
-  padding: 6px 20px !important;
-  padding-top: 3px;
-  margin-left: 38%;
-  margin-top: 40px;
+.input-field {
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 30vw;
+  border-radius: 8px;
+}
+.sign-up-button {
+  color: #fff;
+  background-color: #001aff;
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1px solid #001aff;
+  font-size: 20px;
 }
 
-.register_btn:hover {
-  background-color: #20b8f5;
-  opacity: 0.5;
+.sign-up-button:hover {
+  color: #001aff;
+  background-color: #fff;
+  border: 1px solid #001aff;
 }
-.navigate {
-  position: absolute;
-  right: 0;
+.auth_navigate {
+  margin-left: 450px;
+  margin-bottom: 20px;
 }
