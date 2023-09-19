@@ -112,25 +112,6 @@ export const Menyu = () => {
           />
         </li>
         <li className="menyu_item">
-          <NavLink to={'acsessuar'} className="menyu_box">
-            <img
-              src={One}
-              alt="icon"
-              className="menyu_img"
-              width={24}
-              height={12}
-            />
-            <p className="menyu_p">Noutbuklar uchun aksessuarlar</p>
-          </NavLink>
-          <img
-            src={Right}
-            alt="motion"
-            className="menyu_img_next"
-            width={24}
-            height={24}
-          />
-        </li>
-        <li className="menyu_item">
           <NavLink to={'/planshet'} className="menyu_box">
             <img
               src={Two}

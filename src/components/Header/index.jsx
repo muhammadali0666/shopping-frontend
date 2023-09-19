@@ -11,9 +11,12 @@ import Modal from "react-bootstrap/Modal";
 import { useState } from "react";
 import { Menyu } from "../Menyu";
 import { Katalog } from "../Katalog";
+import Checked from "../../assets/img/checked.png"
 
 export const Header = () => {
   const [lgShow, setLgShow] = useState(false);
+
+  const getToken = localStorage.getItem('token')
 
   return (
     <div className="header">
@@ -64,7 +67,9 @@ export const Header = () => {
                 href="#"
                 className="header_top_item_link_next"
               >
-                <img src={User} alt="asdas" width={32} height={32} />
+                {
+                  getToken ? <img src={Checked} alt="img" width={26} height={26} /> : <img src={User} alt="icon" width={32} height={32} />
+                }
               </NavLink>
             </li>
           </ul>
