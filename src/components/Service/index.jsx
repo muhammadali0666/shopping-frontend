@@ -29,7 +29,7 @@ export const Service = () => {
             width={60}
             height={40}
           />
-          <p className="service_p">Yetkazib berish</p>
+          <p className="service_p">Yetkazib berish uchun</p>
         </li>
         <li className="service_item">
           <img
