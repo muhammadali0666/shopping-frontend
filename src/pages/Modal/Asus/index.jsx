@@ -1,6 +1,5 @@
 import { Header } from "../../../components/Header";
 import { Footer } from "../../../components/Footer";
-import { Card } from "../../../components/Card";
 import { useState, useEffect } from "react";
 import Monitor from "../../../assets/img/card-monitor.png";
 import Like from "../../../assets/img/card-like.png";
