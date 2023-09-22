@@ -1,3 +1,8 @@
+.sidebar {
+  background-color: #060F42;
+  padding: 20px;
+}
+
 .sidebar_item {
   border-bottom: 1px solid #eae6e6;
   display: flex;
@@ -6,6 +11,16 @@
   justify-content: space-between;
   padding-top: 0px;
   padding-bottom: 8px;
+}
+.sidebar_paragraph{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  color: #fff;
+}
+.accordion {
+ --bs-accordion-border-color: none !important;
 }
 .sidebar_box {
   display: flex;

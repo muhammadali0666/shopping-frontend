@@ -6,4 +6,6 @@
 }
 .admin_layout_right {
   width: 70%;
+  margin-left: 30px;
+  padding-top: 40px;
 }

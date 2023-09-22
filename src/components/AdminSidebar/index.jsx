@@ -6,7 +6,6 @@ import { NavLink } from "react-router-dom";
 import Kampitur from "../../assets/img/komiputer.png";
 import Laptop from "../../assets/img/laptop.png";
 import Controller from "../../assets/img/controller.png";
-import One from "../../assets/img/1.png";
 import Two from "../../assets/img/2.png";
 import Three from "../../assets/img/3.png";
 import Four from "../../assets/img/4.png";
@@ -33,7 +32,7 @@ export const AdminSidebar = () => {
           </Accordion.Header>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/com_components"} className="sidebar_box">
+              <NavLink to={"/admin_control"} className="sidebar_box">
                 <img
                   src={Proccessor}
                   alt="icon"
