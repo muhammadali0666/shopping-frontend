@@ -42,40 +42,40 @@ export const Katalog = () => {
             <h4 className="katalog_paragrph">Sichqonchalar</h4>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link" to={'/logitech'}>Logitech</NavLink>
+            <NavLink className="katalog_link" to={'/mouse_logitech'}>Logitech</NavLink>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link" to={'/razer'}>Razer</NavLink>
+            <NavLink className="katalog_link" to={'/mouse_razer'}>Razer</NavLink>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link" to={'/microsoft'}>Microsoft</NavLink>
+            <NavLink className="katalog_link" to={'/mouse_microsoft'}>Microsoft</NavLink>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link" to={'/steelseries'}>SteelSeries</NavLink>
+            <NavLink className="katalog_link" to={'/mouse_steelseries'}>SteelSeries</NavLink>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link" to={'/roccat'}>ROCCAT</NavLink>
+            <NavLink className="katalog_link" to={'/mouse_roccat'}>ROCCAT</NavLink>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link" to={'/asus'}>Asus</NavLink>
+            <NavLink className="katalog_link" to={'/mouse_asus'}>Asus</NavLink>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link" to={'/hyperx'}>HyperX</NavLink>
+            <NavLink className="katalog_link" to={'/mouse_hyperx'}>HyperX</NavLink>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link" to={'/corsair'}>Corsair</NavLink>
+            <NavLink className="katalog_link" to={'/mouse_corsair'}>Corsair</NavLink>
           </li>
           <li className="katalog_item">
             <NavLink className="katalog_link" to={'/mouse_lenovo'}>Lenovo</NavLink>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link" to={'/zowie'}>Zowie by BenQ</NavLink>
+            <NavLink className="katalog_link" to={'/mouse_zowie'}>Zowie by BenQ</NavLink>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link" to={'/msi'}>MSI</NavLink>
+            <NavLink className="katalog_link" to={'/mouse_msi'}>MSI</NavLink>
           </li>
           <li className="katalog_item">
-            <NavLink className="katalog_link" to={'/redroger'}>Redroger</NavLink>
+            <NavLink className="katalog_link" to={'/mouse_redroger'}>Redroger</NavLink>
           </li>
         </ul>
       </div>

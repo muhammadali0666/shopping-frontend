@@ -96,18 +96,18 @@ export const RouterWrapper = () => {
       <Route path="/sony" element={<Sony />} />
       <Route path="/samsung" element={<Samsung />} />
       <Route path="/toshiba" element={<Toshiba />} />
-      <Route path="/logitech" element={<MouseLogitech />} />
-      <Route path="/razer" element={<MouseRazer />} />
-      <Route path="/microsoft" element={<MouseMicrosoft />} />
-      <Route path="/steelseries" element={<MouseSteelSeries />} />
-      <Route path="/roccat" element={<MouseRoccat />} />
-      <Route path="/asus" element={<MouseAsus />} />
-      <Route path="/hyperx" element={<MouseHyperX />} />
-      <Route path="/corsair" element={<MouseCorsair />} />
+      <Route path="/mouse_logitech" element={<MouseLogitech />} />
+      <Route path="/mouse_razer" element={<MouseRazer />} />
+      <Route path="/mouse_microsoft" element={<MouseMicrosoft />} />
+      <Route path="/mouse_steelseries" element={<MouseSteelSeries />} />
+      <Route path="/mouse_roccat" element={<MouseRoccat />} />
+      <Route path="/mouse_asus" element={<MouseAsus />} />
+      <Route path="/mouse_hyperx" element={<MouseHyperX />} />
+      <Route path="/mouse_corsair" element={<MouseCorsair />} />
       <Route path="/mouse_lenovo" element={<MouseLenovo />} />
-      <Route path="/zowie" element={<MouseZowie />} />
-      <Route path="/msi" element={<MouseMSI />} />
-      <Route path="/redroger" element={<MouseRedroger />} />
+      <Route path="/mouse_zowie" element={<MouseZowie />} />
+      <Route path="/mouse_msi" element={<MouseMSI />} />
+      <Route path="/mouse_redroger" element={<MouseRedroger />} />
       <Route path="/monitor_acer" element={<MonitorAcer />} />
       <Route path="/monitor_asus" element={<MonitorAsus />} />
       <Route path="/monitor_dell" element={<MonitorDell />} />
