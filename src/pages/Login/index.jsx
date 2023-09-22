@@ -1,17 +1,11 @@
 import React from "react";
 import "./login.css";
 import { useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const Login = () => {
-  const Navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
-  const data = {
-    email: email,
-    password: password,
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -31,6 +25,9 @@ export const Login = () => {
       .then((data) => {
         if (data.token) {
           localStorage.setItem("token", data.token);
+          if(data.checkup !== "you are not admin"){
+            localStorage.setItem("getATN", data.checkup)
+          }
           alert(data.msg);
         }
         if (data.token) {

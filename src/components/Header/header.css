@@ -151,5 +151,7 @@
 .katalog_wrapper {
   display: flex;
 }
-/* .header_icons_img {
-} */
+.admin_text {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}

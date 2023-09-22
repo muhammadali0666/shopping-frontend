@@ -10,6 +10,7 @@ import Two from "../../assets/img/2.png"
 import Three from "../../assets/img/3.png"
 import Four from "../../assets/img/4.png"
 import Five from "../../assets/img/5.png"
+import Mouse from "../../assets/img/mouse.png"
 import { NavLink } from "react-router-dom";
 
 export const Menyu = () => {
@@ -177,7 +178,26 @@ export const Menyu = () => {
               width={24}
               height={23}
             />
-            <p className="menyu_p">tarmoq apparati</p>
+            <p className="menyu_p">Tarmoq apparati</p>
+          </NavLink>
+          <img
+            src={Right}
+            alt="motion"
+            className="menyu_img_next"
+            width={24}
+            height={24}
+          />
+        </li>
+        <li className="menyu_item">
+          <NavLink to={'/mouse'} className="menyu_box">
+            <img
+              src={Mouse}
+              alt="icon"
+              className="menyu_img"
+              width={28}
+              height={27}
+            />
+            <p className="menyu_p">Sichqonchalar</p>
           </NavLink>
           <img
             src={Right}

@@ -1,0 +1,22 @@
+.sidebar_item {
+  border-bottom: 1px solid #eae6e6;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 1px 0px 0px hsla(0, 0%, 0%, 0.039);
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-bottom: 8px;
+}
+.sidebar_box {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.sidebar_box:hover {
+  color: #c9c4c4;
+}
+.sidebar_p {
+  margin-bottom: 0;
+  margin-left: 8px;
+}

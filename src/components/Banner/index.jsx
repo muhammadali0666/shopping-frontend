@@ -1,6 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import Bg from "../../assets/img/hero-bg.png";
-import BgTwo from "../../assets/img/online-shopping-banner-vector-17230980.jpg"
+import BgTwo from "../../assets/img/workplace.png"
 import "./banner.css"
 
 function Banner() {

@@ -17,6 +17,7 @@ import { Planshet } from "../pages/Planshet";
 import { Printer } from "../pages/Printer";
 import { Kalonkalar } from "../pages/Kalonkalar";
 import { WiFi } from "../pages/WIFI";
+import { Mouse } from "../pages/Mouse";
 import { MacBook } from "../pages/Modal/MacBook";
 import { Asus } from "../pages/Modal/Asus";
 import { Lenovo } from "../pages/Modal/Lenovo";
@@ -60,6 +61,7 @@ import { RouterCisco } from "../pages/Modal/RouterCisco";
 import { RouterSiklu } from "../pages/Modal/RouterSiklu";
 import { RouterMERCUSYS } from "../pages/Modal/RouterMercusys";
 import { RouterSNR } from "../pages/Modal/RouterSNR";
+import { AdminPanel } from "../pages/Admin";
 
 export const RouterWrapper = () => {
   return (
@@ -67,63 +69,72 @@ export const RouterWrapper = () => {
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
       <Route path="/" element={<Home />} />
-      <Route path="/product" element={<ProductPage/>}/>
-      <Route path="/productCharacteristic" element={<ProductCharacteristic/>}/>
-      <Route path="/news" element={<News/>} />
-      <Route path="/contact" element={<Contact/>}/>
-      <Route path="/com_components" element={<CompiturComponents/>}/>
-      <Route path="/monitor" element={<Monitors/>}/>
-      <Route path="/computer" element={<Computer/>}/> 
-      <Route path='/laptop' element={<Laptops/>} />
-      <Route path="/consol" element={<Consol/>} />
-      <Route path="/acsessuar" element={<LaptopAcsessuar/>}/>
-      <Route path="/planshet" element={<Planshet/>}/>
-      <Route path="/printer" element={<Printer/>}/> 
-      <Route path="/kalonka" element={<Kalonkalar/>}/>
-      <Route path="/wifi" element={<WiFi/>} />
-      <Route path="/macbook" element={<MacBook/>}/>
-      <Route path="/asus" element={<Asus/>}/>
-      <Route path="/lenovo" element={<Lenovo/>}/> 
-      <Route path="/hp" element={<Hp/>}/>
-      <Route path="/dell" element={<Dell/>}/>
-      <Route path="/acer" element={<Acer/>}/>
-      <Route path="/sony" element={<Sony/>}/>
-      <Route path="/samsung" element={<Samsung/>}/>
-      <Route path="/toshiba" element={<Toshiba/>}/>
-      <Route path="/logitech" element={<MouseLogitech/>}/>
-      <Route path="/razer" element={<MouseRazer/>}/>
-      <Route path="/microsoft" element={<MouseMicrosoft/>}/>
-      <Route path="/steelseries" element={<MouseSteelSeries/>}/>
-      <Route path="/roccat" element={<MouseRoccat/>}/>
-      <Route path="/asus" element={<MouseAsus/>}/>
-      <Route path="/hyperx" element={<MouseHyperX/>}/>
-      <Route path="/corsair" element={<MouseCorsair/>}/>
-      <Route path="/mouse_lenovo" element={<MouseLenovo/>}/>
-      <Route path="/zowie" element={<MouseZowie/>}/>
-      <Route path="/msi" element={<MouseMSI/>}/>
-      <Route path="/redroger" element={<MouseRedroger/>}/>
-      <Route path="/monitor_acer" element={<MonitorAcer/>}/>
-      <Route path="/monitor_asus" element={<MonitorAsus/>}/>
-      <Route path="/monitor_dell" element={<MonitorDell/>}/>
-      <Route path="/monitor_gigabayte" element={<MonitorGigabayte/>}/>
-      <Route path="/monitor_lg" element={<MonitorLG/>}/>
-      <Route path="/monitor_msi" element={<MonitorMSI/>}/>
-      <Route path="/monitor_samsung" element={<MonitorSamsung/>}/>
-      <Route path="/printer_hp" element={<PrinterHp/>}/>
-      <Route path="/printer_canon" element={<PrinterCanon/>}/>
-      <Route path="/printer_xerox" element={<PrinterXerox/>}/>
-      <Route path="/printer_brother" element={<PrinterBrother/>}/>
-      <Route path="/printer_epson" element={<PrinterEpson/>}/>
-      <Route path="/tp_link" element={<RouterTPLink/>}/>
-      <Route path="/tenda" element={<RouterTenda/>}/>
-      <Route path="/netis" element={<RouterNetis/>}/>
-      <Route path="/microtik" element={<RouterMicroTik/>}/>
-      <Route path="/huawei" element={<RouterHuawei/>}/>
-      <Route path="/xiaomi" element={<RouterXiaomi/>}/>
-      <Route path="/cisco" element={<RouterCisco/>}/>
-      <Route path="/siklu" element={<RouterSiklu/>}/>
-      <Route path="/mercusys" element={<RouterMERCUSYS/>}/>
-      <Route path="/snr" element={<RouterSNR/>}/>
+      <Route path="/product" element={<ProductPage />} />
+      <Route
+        path="/productCharacteristic"
+        element={<ProductCharacteristic />}
+      />
+      <Route path="/news" element={<News />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/com_components" element={<CompiturComponents />} />
+      <Route path="/monitor" element={<Monitors />} />
+      <Route path="/computer" element={<Computer />} />
+      <Route path="/laptop" element={<Laptops />} />
+      <Route path="/consol" element={<Consol />} />
+      <Route path="/acsessuar" element={<LaptopAcsessuar />} />
+      <Route path="/planshet" element={<Planshet />} />
+      <Route path="/printer" element={<Printer />} />
+      <Route path="/kalonka" element={<Kalonkalar />} />
+      <Route path="/wifi" element={<WiFi />} />
+      <Route path="/mouse" element={<Mouse />} />
+      <Route path="/macbook" element={<MacBook />} />
+      <Route path="/asus" element={<Asus />} />
+      <Route path="/lenovo" element={<Lenovo />} />
+      <Route path="/hp" element={<Hp />} />
+      <Route path="/dell" element={<Dell />} />
+      <Route path="/acer" element={<Acer />} />
+      <Route path="/sony" element={<Sony />} />
+      <Route path="/samsung" element={<Samsung />} />
+      <Route path="/toshiba" element={<Toshiba />} />
+      <Route path="/logitech" element={<MouseLogitech />} />
+      <Route path="/razer" element={<MouseRazer />} />
+      <Route path="/microsoft" element={<MouseMicrosoft />} />
+      <Route path="/steelseries" element={<MouseSteelSeries />} />
+      <Route path="/roccat" element={<MouseRoccat />} />
+      <Route path="/asus" element={<MouseAsus />} />
+      <Route path="/hyperx" element={<MouseHyperX />} />
+      <Route path="/corsair" element={<MouseCorsair />} />
+      <Route path="/mouse_lenovo" element={<MouseLenovo />} />
+      <Route path="/zowie" element={<MouseZowie />} />
+      <Route path="/msi" element={<MouseMSI />} />
+      <Route path="/redroger" element={<MouseRedroger />} />
+      <Route path="/monitor_acer" element={<MonitorAcer />} />
+      <Route path="/monitor_asus" element={<MonitorAsus />} />
+      <Route path="/monitor_dell" element={<MonitorDell />} />
+      <Route path="/monitor_gigabayte" element={<MonitorGigabayte />} />
+      <Route path="/monitor_lg" element={<MonitorLG />} />
+      <Route path="/monitor_msi" element={<MonitorMSI />} />
+      <Route path="/monitor_samsung" element={<MonitorSamsung />} />
+      <Route path="/printer_hp" element={<PrinterHp />} />
+      <Route path="/printer_canon" element={<PrinterCanon />} />
+      <Route path="/printer_xerox" element={<PrinterXerox />} />
+      <Route path="/printer_brother" element={<PrinterBrother />} />
+      <Route path="/printer_epson" element={<PrinterEpson />} />
+      <Route path="/tp_link" element={<RouterTPLink />} />
+      <Route path="/tenda" element={<RouterTenda />} />
+      <Route path="/netis" element={<RouterNetis />} />
+      <Route path="/microtik" element={<RouterMicroTik />} />
+      <Route path="/huawei" element={<RouterHuawei />} />
+      <Route path="/xiaomi" element={<RouterXiaomi />} />
+      <Route path="/cisco" element={<RouterCisco />} />
+      <Route path="/siklu" element={<RouterSiklu />} />
+      <Route path="/mercusys" element={<RouterMERCUSYS />} />
+      <Route path="/snr" element={<RouterSNR />} />
+      {localStorage.getItem("getATN") ? (
+        <Route path="/admin_control" element={<AdminPanel />} />
+      ) : (
+        <Route path="/login" element={<Login />} />
+      )}
       <Route path="*" element={<Error />} />
     </Routes>
   );

@@ -1,0 +1,9 @@
+.admin_layout {
+  display: flex;
+}
+.admin_layout_left {
+  width: 30%;
+}
+.admin_layout_right {
+  width: 70%;
+}
