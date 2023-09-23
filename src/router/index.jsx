@@ -62,6 +62,14 @@ import { RouterSiklu } from "../pages/Modal/RouterSiklu";
 import { RouterMERCUSYS } from "../pages/Modal/RouterMercusys";
 import { RouterSNR } from "../pages/Modal/RouterSNR";
 import { AdminPanel } from "../pages/Admin";
+import { MonitorControlpage } from "../pages/AdminPages/MonitorPage";
+import { MonitorControlAcerC } from "../pages/AdminPages/MonitorAcerC";
+import { MonitorControlAsusC } from "../pages/AdminPages/MonitorAsusC";
+import { MonitorControlDellC } from "../pages/AdminPages/MonitorDellC";
+import { MonitorControlGigabayteC } from "../pages/AdminPages/MonitorGigabayteC";
+import { MonitorControlLGC } from "../pages/AdminPages/MonitorLG";
+import { MonitorControlMSIC } from "../pages/AdminPages/MonitorMSIC";
+import { MonitorControlSamsungC } from "../pages/AdminPages/MonitorSamsungC";
 
 export const RouterWrapper = () => {
   return (
@@ -69,6 +77,7 @@ export const RouterWrapper = () => {
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
       <Route path="/" element={<Home />} />
+      {/* category  */}
       <Route path="/product" element={<ProductPage />} />
       <Route
         path="/productCharacteristic"
@@ -87,6 +96,8 @@ export const RouterWrapper = () => {
       <Route path="/kalonka" element={<Kalonkalar />} />
       <Route path="/wifi" element={<WiFi />} />
       <Route path="/mouse" element={<Mouse />} />
+      {/* category  */}
+      {/* brands  */}
       <Route path="/macbook" element={<MacBook />} />
       <Route path="/asus" element={<Asus />} />
       <Route path="/lenovo" element={<Lenovo />} />
@@ -130,11 +141,22 @@ export const RouterWrapper = () => {
       <Route path="/siklu" element={<RouterSiklu />} />
       <Route path="/mercusys" element={<RouterMERCUSYS />} />
       <Route path="/snr" element={<RouterSNR />} />
+      {/* brands  */}
+      {/* admin_panel  */}
       {localStorage.getItem("getATN") ? (
         <Route path="/admin_control" element={<AdminPanel />} />
       ) : (
         <Route path="/login" element={<Login />} />
       )}
+      <Route path="/control_monitor" element={<MonitorControlpage/>}/>
+      <Route path="/control_monitor_acer" element={<MonitorControlAcerC/>}/>
+      <Route path="/control_monitor_asus" element={<MonitorControlAsusC/>}/>
+      <Route path="/control_monitor_dell" element={<MonitorControlDellC/>}/>
+      <Route path="/control_monitor_gigabayte" element={<MonitorControlGigabayteC/>}/>
+      <Route path="/control_monitor_lg" element={<MonitorControlLGC/>}/>
+      <Route path="/control_monitor_msi" element={<MonitorControlMSIC/>}/>
+      <Route path="/control_monitor_samsung" element={<MonitorControlSamsungC/>}/>
+      {/* admin_panel  */}
       <Route path="*" element={<Error />} />
     </Routes>
   );

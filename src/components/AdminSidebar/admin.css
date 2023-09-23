@@ -1,6 +1,7 @@
 .sidebar {
   background-color: #060F42;
   padding: 20px;
+  height: 100%;
 }
 
 .sidebar_item {

@@ -60,7 +60,7 @@ export const AdminSidebar = () => {
           </Accordion.Header>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/monitor"} className="sidebar_box">
+              <NavLink to={"/control_monitor"} className="sidebar_box">
                 <img
                   src={Monitor}
                   alt="icon"
@@ -74,7 +74,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/monitor_acer"} className="sidebar_box">
+              <NavLink to={"/control_monitor_acer"} className="sidebar_box">
                 <img
                   src={Monitor}
                   alt="icon"
@@ -88,7 +88,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/monitor_asus"} className="sidebar_box">
+              <NavLink to={"/control_monitor_asus"} className="sidebar_box">
                 <img
                   src={Monitor}
                   alt="icon"
@@ -102,7 +102,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/monitor_dell"} className="sidebar_box">
+              <NavLink to={"/control_monitor_dell"} className="sidebar_box">
                 <img
                   src={Monitor}
                   alt="icon"
@@ -116,7 +116,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/monitor_gigabayte"} className="sidebar_box">
+              <NavLink to={"/control_monitor_gigabayte"} className="sidebar_box">
                 <img
                   src={Monitor}
                   alt="icon"
@@ -130,7 +130,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/monitor_lg"} className="sidebar_box">
+              <NavLink to={"/control_monitor_lg"} className="sidebar_box">
                 <img
                   src={Monitor}
                   alt="icon"
@@ -144,7 +144,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/monitor_msi"} className="sidebar_box">
+              <NavLink to={"/control_monitor_msi"} className="sidebar_box">
                 <img
                   src={Monitor}
                   alt="icon"
@@ -158,7 +158,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/monitor_samsung"} className="sidebar_box">
+              <NavLink to={"/control_monitor_samsung"} className="sidebar_box">
                 <img
                   src={Monitor}
                   alt="icon"

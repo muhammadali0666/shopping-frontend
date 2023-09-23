@@ -1,0 +1,23 @@
+.control_list {
+  margin-top: 100px;
+  overflow-y: scroll;
+  height: 300px;
+  margin-bottom: 30px;
+}
+.table {
+  border-collapse: collapse !important;
+}
+/* .control_table_head {
+
+} */
+/* .control_table_row {
+} */
+.control_th {
+  color: #060f42 !important;
+  border-collapse: collapse !important;
+}
+/* .control_table_body {
+} */
+.control_td {
+  color: #060f42 !important;
+}
