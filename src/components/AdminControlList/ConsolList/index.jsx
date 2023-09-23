@@ -25,9 +25,6 @@ export const ConsolList = () => {
               Category
             </th>
             <th className="control_th" scope="col">
-              Comments
-            </th>
-            <th className="control_th" scope="col">
               Edit
             </th>
             <th className="control_th" scope="col">
@@ -43,7 +40,6 @@ export const ConsolList = () => {
             <td className="control_td">Mark</td>
             <td className="control_td">Otto</td>
             <td className="control_td">@mdo</td>
-            <td className="control_td">Otto</td>
             <td className="control_td">Otto</td>
             <td className="control_td">Otto</td>
             <td className="control_td">

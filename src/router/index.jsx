@@ -82,6 +82,37 @@ import { NoutSamsungC } from "../pages/AdminPages/NoutSamsungC";
 import { NoutToshibaC } from "../pages/AdminPages/NoutToshibaC";
 import { ConsolC } from "../pages/AdminPages/GameConsolC";
 import { PlanshetC } from "../pages/AdminPages/PlanshetC";
+import { PrinterC } from "../pages/AdminPages/PrinterC";
+import { PrinterHpC } from "../pages/AdminPages/PrinterHpC";
+import { PrinterCanonC } from "../pages/AdminPages/PrinterCanonC";
+import { PrinterXeroxC } from "../pages/AdminPages/PrinterXeroxC";
+import { PrinterBrotherC } from "../pages/AdminPages/PrinterBrotherC";
+import { PrinterEpsonC } from "../pages/AdminPages/PrinterEpsonC";
+import { KalonkaC } from "../pages/AdminPages/KalonkaC";
+import { RouterC } from "../pages/AdminPages/RouterC";
+import { RouterTPLinkC } from "../pages/AdminPages/RouterTP_LinkC";
+import { RouterTendaC } from "../pages/AdminPages/RouterTendaC";
+import { RouterNetisC } from "../pages/AdminPages/RouterNetisC";
+import { RouterMicroTikC } from "../pages/AdminPages/RouterMicroTikC";
+import { RouterHuaweiC } from "../pages/AdminPages/RouterHuaweiC";
+import { RouterXiaomiC } from "../pages/AdminPages/RouterXiaomiC";
+import { RouterCiscoC } from "../pages/AdminPages/RouterCiscoC";
+import { RouterSikluC } from "../pages/AdminPages/RouterSikluC";
+import { RouterMERCUSYSC } from "../pages/AdminPages/RouterMERCUSYSC";
+import { RouterSNRC } from "../pages/AdminPages/RouterSNRC";
+import { MouseC } from "../pages/AdminPages/MousesC";
+import { MouseLogitechC } from "../pages/AdminPages/MouseLogitechC";
+import { MouseRizerC } from "../pages/AdminPages/MouseRizerC";
+import { MouseMicrosoftC } from "../pages/AdminPages/MouseMicrosoftC";
+import { MouseStellSeriesC } from "../pages/AdminPages/MouseStellSeriesC";
+import { MouseROCCATC } from "../pages/AdminPages/MouseROCCATC";
+import { MouseAsusC } from "../pages/AdminPages/MouseAsusC";
+import { MouseHyperXC } from "../pages/AdminPages/mouseHyperXC";
+import { MouseCorsairC } from "../pages/AdminPages/MouseCorsairC";
+import { MouseLenovoC } from "../pages/AdminPages/MouseLenovoC";
+import { MouseZowieC } from "../pages/AdminPages/MouseZoweiC";
+import { MouseMSIC } from "../pages/AdminPages/MouseMSIC";
+import { MouseRedrogerC } from "../pages/AdminPages/MouseRedrogerC";
 
 export const RouterWrapper = () => {
   return (
@@ -180,6 +211,37 @@ export const RouterWrapper = () => {
       <Route path="/control_nout_toshiba" element={<NoutToshibaC/>}/>
       <Route path="/control_nout_consol" element={<ConsolC/>}/>
       <Route path="/control_planshet" element={<PlanshetC/>}/>
+      <Route path="/control_printer" element={<PrinterC/>}/>
+      <Route path="/control_printer_hp" element={<PrinterHpC/>}/>
+      <Route path="/control_printer_canon" element={<PrinterCanonC/>}/>
+      <Route path="/control_printer_xerox" element={<PrinterXeroxC/>}/>
+      <Route path="/control_printer_brother" element={<PrinterBrotherC/>}/>
+      <Route path="/control_printer_epson" element={<PrinterEpsonC/>}/>
+      <Route path="/control_kalonka" element={<KalonkaC/>}/>
+      <Route path="/control_router" element={<RouterC/>}/>
+      <Route path="/control_router_tp_link" element={<RouterTPLinkC/>}/>
+      <Route path="/control_router_tenda" element={<RouterTendaC/>}/>
+      <Route path="/control_router_netis" element={<RouterNetisC/>}/>
+      <Route path="/control_router_microtik" element={<RouterMicroTikC/>}/>
+      <Route path="/control_router_huawei" element={<RouterHuaweiC/>}/>
+      <Route path="/control_router_xiaomi" element={<RouterXiaomiC/>}/>
+      <Route path="/control_router_cisco" element={<RouterCiscoC/>}/>
+      <Route path="/control_router_siklu" element={<RouterSikluC/>}/>
+      <Route path="/control_router_mercusys" element={<RouterMERCUSYSC/>}/>
+      <Route path="/control_router_snr" element={<RouterSNRC/>}/>
+      <Route path="/control_mouse" element={<MouseC/>}/>
+      <Route path="/control_mouse_logitech" element={<MouseLogitechC/>}/>
+      <Route path="/control_mouse_rizer" element={<MouseRizerC/>}/>
+      <Route path="/control_mouse_microsoft" element={<MouseMicrosoftC/>}/>
+      <Route path="/control_mouse_stell_series" element={<MouseStellSeriesC/>}/>
+      <Route path="/control_mouse_roccat" element={<MouseROCCATC/>}/>
+      <Route path="/control_mouse_asus" element={<MouseAsusC/>}/>
+      <Route path="/control_mouse_hyperx" element={<MouseHyperXC/>}/>
+      <Route path="/control_mouse_corsair" element={<MouseCorsairC/>}/>
+      <Route path="/control_mouse_lenovo" element={<MouseLenovoC/>}/>
+      <Route path="/control_mouse_zowei" element={<MouseZowieC/>}/>
+      <Route path="/control_mouse_msi" element={<MouseMSIC/>}/>
+      <Route path="/control_mouse_redroger" element={<MouseRedrogerC/>}/>
       {/* admin_panel  */}
       <Route path="*" element={<Error />} />
     </Routes>

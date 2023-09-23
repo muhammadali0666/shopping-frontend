@@ -25,9 +25,6 @@ export const MonitorList = () => {
               Category
             </th>
             <th className="control_th" scope="col">
-              Comments
-            </th>
-            <th className="control_th" scope="col">
               Ekran diaganali
             </th>
             <th className="control_th" scope="col">

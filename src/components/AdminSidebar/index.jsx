@@ -116,7 +116,10 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/control_monitor_gigabayte"} className="sidebar_box">
+              <NavLink
+                to={"/control_monitor_gigabayte"}
+                className="sidebar_box"
+              >
                 <img
                   src={Monitor}
                   alt="icon"
@@ -410,7 +413,7 @@ export const AdminSidebar = () => {
           </Accordion.Header>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/printer"} className="sidebar_box">
+              <NavLink to={"/control_printer"} className="sidebar_box">
                 <img
                   src={Three}
                   alt="icon"
@@ -424,7 +427,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/printer_hp"} className="sidebar_box">
+              <NavLink to={"/control_printer_hp"} className="sidebar_box">
                 <img
                   src={Three}
                   alt="icon"
@@ -438,7 +441,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/printer_canon"} className="sidebar_box">
+              <NavLink to={"/control_printer_canon"} className="sidebar_box">
                 <img
                   src={Three}
                   alt="icon"
@@ -452,7 +455,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/printer_xerox"} className="sidebar_box">
+              <NavLink to={"/control_printer_xerox"} className="sidebar_box">
                 <img
                   src={Three}
                   alt="icon"
@@ -466,7 +469,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/printer_brother"} className="sidebar_box">
+              <NavLink to={"/control_printer_brother"} className="sidebar_box">
                 <img
                   src={Three}
                   alt="icon"
@@ -480,7 +483,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/printer_epson"} className="sidebar_box">
+              <NavLink to={"/control_printer_epson"} className="sidebar_box">
                 <img
                   src={Three}
                   alt="icon"
@@ -508,7 +511,7 @@ export const AdminSidebar = () => {
           </Accordion.Header>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/kalonka"} className="sidebar_box">
+              <NavLink to={"/control_kalonka"} className="sidebar_box">
                 <img
                   src={Four}
                   alt="icon"
@@ -536,7 +539,7 @@ export const AdminSidebar = () => {
           </Accordion.Header>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/wifi"} className="sidebar_box">
+              <NavLink to={"/control_router"} className="sidebar_box">
                 <img
                   src={Five}
                   alt="icon"
@@ -550,7 +553,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/tp_link"} className="sidebar_box">
+              <NavLink to={"/control_router_tp_link"} className="sidebar_box">
                 <img
                   src={Five}
                   alt="icon"
@@ -564,7 +567,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/tenda"} className="sidebar_box">
+              <NavLink to={"/control_router_tenda"} className="sidebar_box">
                 <img
                   src={Five}
                   alt="icon"
@@ -578,7 +581,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/netis"} className="sidebar_box">
+              <NavLink to={"/control_router_netis"} className="sidebar_box">
                 <img
                   src={Five}
                   alt="icon"
@@ -592,7 +595,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/microtik"} className="sidebar_box">
+              <NavLink to={"/control_router_microtik"} className="sidebar_box">
                 <img
                   src={Five}
                   alt="icon"
@@ -606,7 +609,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/huawei"} className="sidebar_box">
+              <NavLink to={"/control_router_huawei"} className="sidebar_box">
                 <img
                   src={Five}
                   alt="icon"
@@ -620,7 +623,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/xiaomi"} className="sidebar_box">
+              <NavLink to={"/control_router_xiaomi"} className="sidebar_box">
                 <img
                   src={Five}
                   alt="icon"
@@ -634,7 +637,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/cisco"} className="sidebar_box">
+              <NavLink to={"/control_router_cisco"} className="sidebar_box">
                 <img
                   src={Five}
                   alt="icon"
@@ -648,7 +651,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/siklu"} className="sidebar_box">
+              <NavLink to={"/control_router_siklu"} className="sidebar_box">
                 <img
                   src={Five}
                   alt="icon"
@@ -662,7 +665,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mercusys"} className="sidebar_box">
+              <NavLink to={"/control_router_mercusys"} className="sidebar_box">
                 <img
                   src={Five}
                   alt="icon"
@@ -676,7 +679,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/snr"} className="sidebar_box">
+              <NavLink to={"/control_router_snr"} className="sidebar_box">
                 <img
                   src={Five}
                   alt="icon"
@@ -704,7 +707,7 @@ export const AdminSidebar = () => {
           </Accordion.Header>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse"} className="sidebar_box">
+              <NavLink to={"/control_mouse"} className="sidebar_box">
                 <img
                   src={Mouse}
                   alt="icon"
@@ -718,7 +721,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse_logitech"} className="sidebar_box">
+              <NavLink to={"/control_mouse_logitech"} className="sidebar_box">
                 <img
                   src={Mouse}
                   alt="icon"
@@ -732,7 +735,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse_rizer"} className="sidebar_box">
+              <NavLink to={"/control_mouse_rizer"} className="sidebar_box">
                 <img
                   src={Mouse}
                   alt="icon"
@@ -746,7 +749,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse_microsoft"} className="sidebar_box">
+              <NavLink to={"/control_mouse_microsoft"} className="sidebar_box">
                 <img
                   src={Mouse}
                   alt="icon"
@@ -760,7 +763,10 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse_stellseries"} className="sidebar_box">
+              <NavLink
+                to={"/control_mouse_stell_series"}
+                className="sidebar_box"
+              >
                 <img
                   src={Mouse}
                   alt="icon"
@@ -774,7 +780,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse_roccat"} className="sidebar_box">
+              <NavLink to={"/control_mouse_roccat"} className="sidebar_box">
                 <img
                   src={Mouse}
                   alt="icon"
@@ -788,7 +794,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse_asus"} className="sidebar_box">
+              <NavLink to={"/control_mouse_asus"} className="sidebar_box">
                 <img
                   src={Mouse}
                   alt="icon"
@@ -802,7 +808,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse_hyperx"} className="sidebar_box">
+              <NavLink to={"/control_mouse_hyperx"} className="sidebar_box">
                 <img
                   src={Mouse}
                   alt="icon"
@@ -816,7 +822,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse_corsair"} className="sidebar_box">
+              <NavLink to={"/control_mouse_corsair"} className="sidebar_box">
                 <img
                   src={Mouse}
                   alt="icon"
@@ -830,7 +836,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse_lenovo"} className="sidebar_box">
+              <NavLink to={"/control_mouse_lenovo"} className="sidebar_box">
                 <img
                   src={Mouse}
                   alt="icon"
@@ -844,7 +850,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse_zowei"} className="sidebar_box">
+              <NavLink to={"/control_mouse_zowei"} className="sidebar_box">
                 <img
                   src={Mouse}
                   alt="icon"
@@ -858,7 +864,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse_msi"} className="sidebar_box">
+              <NavLink to={"/control_mouse_msi"} className="sidebar_box">
                 <img
                   src={Mouse}
                   alt="icon"
@@ -872,7 +878,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/mouse_redroger"} className="sidebar_box">
+              <NavLink to={"/control_mouse_redroger"} className="sidebar_box">
                 <img
                   src={Mouse}
                   alt="icon"
@@ -889,179 +895,3 @@ export const AdminSidebar = () => {
     </div>
   );
 };
-
-{
-  /* <ul className="sidebar_list">
-<li className="menyu_item">
-  <NavLink to={'/monitor'} className="menyu_box">
-    <img
-      src={Monitor}
-      alt="icon"
-      className="menyu_img"
-      width={20}
-      height={24}
-    />
-    <p className="menyu_p">Моnitorlar</p>
-  </NavLink>
-  <img
-    src={Right}
-    alt="motion"
-    className="menyu_img_next"
-    width={24}
-    height={24}
-  />
-</li>
-<li className="menyu_item">
-  <NavLink to={'/computer'} className="menyu_box">
-    <img
-      src={Kampitur}
-      alt="icon"
-      className="menyu_img"
-      width={24}
-      height={24}
-    />
-    <p className="menyu_p">Kompyuterlar</p>
-  </NavLink>
-  <img
-    src={Right}
-    alt="motion"
-    className="menyu_img_next"
-    width={24}
-    height={24}
-  />
-</li>
-<li className="menyu_item">
-  <NavLink to={'/laptop'} className="menyu_box">
-    <img
-      src={Laptop}
-      alt="icon"
-      className="menyu_img"
-      width={16}
-      height={24}
-    />
-    <p className="menyu_p">Noutbuklar</p>
-  </NavLink>
-  <img
-    src={Right}
-    alt="motion"
-    className="menyu_img_next"
-    width={24}
-    height={24}
-  />
-</li>
-<li className="menyu_item">
-  <NavLink to={'/consol'} className="menyu_box">
-    <img
-      src={Controller}
-      alt="icon"
-      className="menyu_img"
-      width={20}
-      height={20}
-    />
-    <p className="menyu_p">O'yin konsollari</p>
-  </NavLink>
-  <img
-    src={Right}
-    alt="motion"
-    className="menyu_img_next"
-    width={24}
-    height={24}
-  />
-</li>
-<li className="menyu_item">
-  <NavLink to={'/planshet'} className="menyu_box">
-    <img
-      src={Two}
-      alt="icon"
-      className="menyu_img"
-      width={20}
-      height={20}
-    />
-    <p className="menyu_p">Planshetlar</p>
-  </NavLink>
-  <img
-    src={Right}
-    alt="motion"
-    className="menyu_img_next"
-    width={24}
-    height={24}
-  />
-</li>
-<li className="menyu_item">
-  <NavLink to={'/printer'} className="menyu_box">
-    <img
-      src={Three}
-      alt="icon"
-      className="menyu_img"
-      width={18}
-      height={24}
-    />
-    <p className="menyu_p">Printerlar</p>
-  </NavLink>
-  <img
-    src={Right}
-    alt="motion"
-    className="menyu_img_next"
-    width={24}
-    height={24}
-  />
-</li>
-<li className="menyu_item">
-  <NavLink to={'/kalonka'} className="menyu_box">
-    <img
-      src={Four}
-      alt="icon"
-      className="menyu_img"
-      width={20}
-      height={20}
-    />
-    <p className="menyu_p">Kalonkalar</p>
-  </NavLink>
-  <img
-    src={Right}
-    alt="motion"
-    className="menyu_img_next"
-    width={24}
-    height={24}
-  />
-</li>
-<li className="menyu_item">
-  <NavLink to={'/wifi'} className="menyu_box">
-    <img
-      src={Five}
-      alt="icon"
-      className="menyu_img"
-      width={24}
-      height={23}
-    />
-    <p className="menyu_p">tarmoq apparati</p>
-  </NavLink>
-  <img
-    src={Right}
-    alt="motion"
-    className="menyu_img_next"
-    width={24}
-    height={24}
-  />
-</li>
-<li className="menyu_item">
-  <NavLink to={'/mouse'} className="menyu_box">
-    <img
-      src={Mouse}
-      alt="icon"
-      className="menyu_img"
-      width={28}
-      height={27}
-    />
-    <p className="menyu_p">mouse</p>
-  </NavLink>
-  <img
-    src={Right}
-    alt="motion"
-    className="menyu_img_next"
-    width={24}
-    height={24}
-  />
-</li>
-</ul> */
-}

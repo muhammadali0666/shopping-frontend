@@ -13,6 +13,9 @@
   padding-top: 0px;
   padding-bottom: 8px;
 }
+.sidebar_item:hover {
+  color: #bebbbb;
+}
 .sidebar_paragraph{
   font-size: 30px;
   font-weight: 500;

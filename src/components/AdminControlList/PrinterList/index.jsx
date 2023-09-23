@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ComputerList = () => {
+export const PrinterList = () => {
   return (
     <div className="control_list">
       <table class="table" style={{ borderCollapse: "collapse" }}>
@@ -24,21 +24,7 @@ export const ComputerList = () => {
             <th className="control_th" scope="col">
               Category
             </th>
-            <th className="control_th" scope="col">
-              Ekran diaganali
-            </th>
-            <th className="control_th" scope="col">
-              Ekran o'lchami
-            </th>
-            <th className="control_th" scope="col">
-              Protsessor
-            </th>
-            <th className="control_th" scope="col">
-              Protsessor chastotasi
-            </th>
-            <th className="control_th" scope="col">
-              Ram
-            </th>
+           
             <th className="control_th" scope="col">
               Sinf
             </th>
@@ -58,11 +44,6 @@ export const ComputerList = () => {
             <td className="control_td">Mark</td>
             <td className="control_td">Otto</td>
             <td className="control_td">@mdo</td>
-            <td className="control_td">Otto</td>
-            <td className="control_td">Otto</td>
-            <td className="control_td">Otto</td>
-            <td className="control_td">Otto</td>
-            <td className="control_td">Otto</td>
             <td className="control_td">Otto</td>
             <td className="control_td">Otto</td>
             <td className="control_td">Otto</td>
