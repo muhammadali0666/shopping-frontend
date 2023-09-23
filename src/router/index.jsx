@@ -80,6 +80,8 @@ import { NoutAcerC } from "../pages/AdminPages/NoutAcerC";
 import { NoutSonyC } from "../pages/AdminPages/NoutSonyC";
 import { NoutSamsungC } from "../pages/AdminPages/NoutSamsungC";
 import { NoutToshibaC } from "../pages/AdminPages/NoutToshibaC";
+import { ConsolC } from "../pages/AdminPages/GameConsolC";
+import { PlanshetC } from "../pages/AdminPages/PlanshetC";
 
 export const RouterWrapper = () => {
   return (
@@ -176,6 +178,8 @@ export const RouterWrapper = () => {
       <Route path="/control_nout_sony" element={<NoutSonyC/>}/>
       <Route path="/control_nout_samsung" element={<NoutSamsungC/>}/>
       <Route path="/control_nout_toshiba" element={<NoutToshibaC/>}/>
+      <Route path="/control_nout_consol" element={<ConsolC/>}/>
+      <Route path="/control_planshet" element={<PlanshetC/>}/>
       {/* admin_panel  */}
       <Route path="*" element={<Error />} />
     </Routes>

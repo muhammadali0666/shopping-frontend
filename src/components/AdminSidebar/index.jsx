@@ -354,7 +354,7 @@ export const AdminSidebar = () => {
           </Accordion.Header>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/consol"} className="sidebar_box">
+              <NavLink to={"/control_nout_consol"} className="sidebar_box">
                 <img
                   src={Controller}
                   alt="icon"
@@ -382,7 +382,7 @@ export const AdminSidebar = () => {
           </Accordion.Header>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/planshet"} className="sidebar_box">
+              <NavLink to={"/control_planshet"} className="sidebar_box">
                 <img
                   src={Two}
                   alt="icon"
