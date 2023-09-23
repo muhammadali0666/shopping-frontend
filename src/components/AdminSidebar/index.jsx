@@ -186,7 +186,7 @@ export const AdminSidebar = () => {
           </Accordion.Header>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/computer"} className="sidebar_box">
+              <NavLink to={"/control_computer"} className="sidebar_box">
                 <img
                   src={Kampitur}
                   alt="icon"
@@ -214,7 +214,7 @@ export const AdminSidebar = () => {
           </Accordion.Header>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/macbook"} className="sidebar_box">
+              <NavLink to={"/control_nout_macbook"} className="sidebar_box">
                 <img
                   src={Laptop}
                   alt="icon"
@@ -228,7 +228,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/asus"} className="sidebar_box">
+              <NavLink to={"/control_nout_asus"} className="sidebar_box">
                 <img
                   src={Laptop}
                   alt="icon"
@@ -242,7 +242,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/lenovo"} className="sidebar_box">
+              <NavLink to={"/contorl_nout_lenovo"} className="sidebar_box">
                 <img
                   src={Laptop}
                   alt="icon"
@@ -256,7 +256,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/hp"} className="sidebar_box">
+              <NavLink to={"/control_nout_hp"} className="sidebar_box">
                 <img
                   src={Laptop}
                   alt="icon"
@@ -270,7 +270,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/dell"} className="sidebar_box">
+              <NavLink to={"/control_nout_dell"} className="sidebar_box">
                 <img
                   src={Laptop}
                   alt="icon"
@@ -284,7 +284,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/acer"} className="sidebar_box">
+              <NavLink to={"/control_nout_acer"} className="sidebar_box">
                 <img
                   src={Laptop}
                   alt="icon"
@@ -298,7 +298,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/sony"} className="sidebar_box">
+              <NavLink to={"/control_nout_sony"} className="sidebar_box">
                 <img
                   src={Laptop}
                   alt="icon"
@@ -312,7 +312,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/samsung"} className="sidebar_box">
+              <NavLink to={"/control_nout_samsung"} className="sidebar_box">
                 <img
                   src={Laptop}
                   alt="icon"
@@ -326,7 +326,7 @@ export const AdminSidebar = () => {
           </Accordion.Body>
           <Accordion.Body>
             <li className="sidebar_item">
-              <NavLink to={"/toshiba"} className="sidebar_box">
+              <NavLink to={"/control_nout_toshiba"} className="sidebar_box">
                 <img
                   src={Laptop}
                   alt="icon"

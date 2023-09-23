@@ -12,7 +12,7 @@ export const ComponentList = () => {
             <th className="control_th" scope="col">Price</th>
             <th className="control_th" scope="col">Comments</th>
             <th className="control_th" scope="col">Brand</th>
-            <th className="control_th" scope="col">Component</th>
+            <th className="control_th" scope="col">Category</th>
             <th className="control_th" scope="col">Edit</th>
             <th className="control_th" scope="col">Delete</th>
           </tr>

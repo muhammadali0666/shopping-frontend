@@ -1,6 +1,6 @@
 import React from "react";
 
-export const MonitorList = () => {
+export const ComputerList = () => {
   return (
     <div className="control_list">
       <table class="table" style={{ borderCollapse: "collapse" }}>
@@ -31,7 +31,19 @@ export const MonitorList = () => {
               Ekran diaganali
             </th>
             <th className="control_th" scope="col">
-              Ekran O'lchami
+              Ekran o'lchami
+            </th>
+            <th className="control_th" scope="col">
+              Protsessor
+            </th>
+            <th className="control_th" scope="col">
+              Protsessor chastotasi
+            </th>
+            <th className="control_th" scope="col">
+              Ram
+            </th>
+            <th className="control_th" scope="col">
+              Sinf
             </th>
             <th className="control_th" scope="col">
               Edit
@@ -49,6 +61,10 @@ export const MonitorList = () => {
             <td className="control_td">Mark</td>
             <td className="control_td">Otto</td>
             <td className="control_td">@mdo</td>
+            <td className="control_td">Otto</td>
+            <td className="control_td">Otto</td>
+            <td className="control_td">Otto</td>
+            <td className="control_td">Otto</td>
             <td className="control_td">Otto</td>
             <td className="control_td">Otto</td>
             <td className="control_td">Otto</td>

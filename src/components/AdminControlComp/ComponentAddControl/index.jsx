@@ -27,7 +27,7 @@ export const AddControlComp = () => {
               />
             </label>
             <div className="control_form_mini_box">
-              <p className="control_p">compyuter component</p>
+              <p className="control_p">category</p>
               <select name="" id="" className="control_form_select">
                 <option value="" className="control_form_option">
                   Compyuter components

@@ -70,6 +70,16 @@ import { MonitorControlGigabayteC } from "../pages/AdminPages/MonitorGigabayteC"
 import { MonitorControlLGC } from "../pages/AdminPages/MonitorLG";
 import { MonitorControlMSIC } from "../pages/AdminPages/MonitorMSIC";
 import { MonitorControlSamsungC } from "../pages/AdminPages/MonitorSamsungC";
+import { ComputerControlC } from "../pages/AdminPages/ComputerC";
+import { NoutMacbookC } from "../pages/AdminPages/NoutMacBookC";
+import { NoutAsusC } from "../pages/AdminPages/NoutAsusC";
+import { NoutLenovoC } from "../pages/AdminPages/NoutLenovoC";
+import { NoutHpC } from "../pages/AdminPages/NoutHpC";
+import { NoutDellC } from "../pages/AdminPages/NoutDellC";
+import { NoutAcerC } from "../pages/AdminPages/NoutAcerC";
+import { NoutSonyC } from "../pages/AdminPages/NoutSonyC";
+import { NoutSamsungC } from "../pages/AdminPages/NoutSamsungC";
+import { NoutToshibaC } from "../pages/AdminPages/NoutToshibaC";
 
 export const RouterWrapper = () => {
   return (
@@ -156,6 +166,16 @@ export const RouterWrapper = () => {
       <Route path="/control_monitor_lg" element={<MonitorControlLGC/>}/>
       <Route path="/control_monitor_msi" element={<MonitorControlMSIC/>}/>
       <Route path="/control_monitor_samsung" element={<MonitorControlSamsungC/>}/>
+      <Route path="/control_computer" element={<ComputerControlC/>}/>
+      <Route path="/control_nout_macbook" element={<NoutMacbookC/>}/>
+      <Route path="/control_nout_asus" element={<NoutAsusC/>}/>
+      <Route path="/contorl_nout_lenovo" element={<NoutLenovoC/>}/>
+      <Route path="/control_nout_hp" element={<NoutHpC/>}/>
+      <Route path="/control_nout_dell" element={<NoutDellC/>}/>
+      <Route path="/control_nout_acer" element={<NoutAcerC/>}/>
+      <Route path="/control_nout_sony" element={<NoutSonyC/>}/>
+      <Route path="/control_nout_samsung" element={<NoutSamsungC/>}/>
+      <Route path="/control_nout_toshiba" element={<NoutToshibaC/>}/>
       {/* admin_panel  */}
       <Route path="*" element={<Error />} />
     </Routes>

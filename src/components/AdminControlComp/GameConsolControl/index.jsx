@@ -1,10 +1,10 @@
 import React from "react";
 import "../admin_control.css";
 
-export const AddControlMonitorBrand = (props) => {
+export const AddControlConsol = () => {
   return (
     <div className="control_box">
-      <h2 className="control_paragraph">Monitor {props.title}</h2>
+      <h2 className="control_paragraph">O'yin konsollari</h2>
       <form className="control_form">
         <div className="control_form_wrapper">
           <div className="control_form_left">
@@ -26,20 +26,11 @@ export const AddControlMonitorBrand = (props) => {
                 id="comments"
               />
             </label>
-            <label htmlFor="ekrandiaganali" className="control_form_label">
-              ekran diaganali
-              <input
-                type="text"
-                className="control_form_input"
-                placeholder="ekran diaganali"
-                id="ekrandiaganali"
-              />
-            </label>
             <div className="control_form_mini_box">
               <p className="control_p">category</p>
               <select name="" id="" className="control_form_select">
                 <option value="" className="control_form_option">
-                  mouse
+                  Compyuter components
                 </option>
               </select>
             </div>
@@ -54,13 +45,13 @@ export const AddControlMonitorBrand = (props) => {
                 id="title"
               />
             </label>
-            <label htmlFor="ekranolchami" className="control_form_label">
-              ekran o'lchami
+            <label htmlFor="brand" className="control_form_label">
+              brand
               <input
                 type="text"
                 className="control_form_input"
-                placeholder="ekran diaganali"
-                id="ekranolchami"
+                placeholder="brand"
+                id="brand"
               />
             </label>
             <label htmlFor="picture" className="control_form_label">

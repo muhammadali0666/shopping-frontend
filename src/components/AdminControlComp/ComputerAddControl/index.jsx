@@ -1,10 +1,10 @@
 import React from "react";
 import "../admin_control.css";
 
-export const AddControlMonitorBrand = (props) => {
+export const AddControlComputer = (props) => {
   return (
     <div className="control_box">
-      <h2 className="control_paragraph">Monitor {props.title}</h2>
+      <h2 className="control_paragraph">Compyuter {props.title}</h2>
       <form className="control_form">
         <div className="control_form_wrapper">
           <div className="control_form_left">
@@ -26,20 +26,38 @@ export const AddControlMonitorBrand = (props) => {
                 id="comments"
               />
             </label>
-            <label htmlFor="ekrandiaganali" className="control_form_label">
-              ekran diaganali
+            <label htmlFor="diaganal" className="control_form_label">
+              ekran diaganal
               <input
                 type="text"
                 className="control_form_input"
-                placeholder="ekran diaganali"
-                id="ekrandiaganali"
+                placeholder="ekran diaganal"
+                id="diaganal"
+              />
+            </label>
+            <label htmlFor="chastota" className="control_form_label">
+              protsessor chastota
+              <input
+                type="text"
+                className="control_form_input"
+                placeholder="protsessor chastota"
+                id="chastota"
+              />
+            </label>
+            <label htmlFor="ram" className="control_form_label">
+              ram
+              <input
+                type="text"
+                className="control_form_input"
+                placeholder="ekran ram"
+                id="ram"
               />
             </label>
             <div className="control_form_mini_box">
               <p className="control_p">category</p>
               <select name="" id="" className="control_form_select">
                 <option value="" className="control_form_option">
-                  mouse
+                  Compyuter components
                 </option>
               </select>
             </div>
@@ -54,13 +72,40 @@ export const AddControlMonitorBrand = (props) => {
                 id="title"
               />
             </label>
-            <label htmlFor="ekranolchami" className="control_form_label">
+            <label htmlFor="brand" className="control_form_label">
+              brand
+              <input
+                type="text"
+                className="control_form_input"
+                placeholder="brand"
+                id="brand"
+              />
+            </label>
+            <label htmlFor="o'lchami" className="control_form_label">
               ekran o'lchami
               <input
                 type="text"
                 className="control_form_input"
-                placeholder="ekran diaganali"
-                id="ekranolchami"
+                placeholder="ekran o'lchami"
+                id="o'lchami"
+              />
+            </label>
+            <label htmlFor="protsessor" className="control_form_label">
+              protsessor
+              <input
+                type="text"
+                className="control_form_input"
+                placeholder="ekran protsessor"
+                id="protsessor"
+              />
+            </label>
+            <label htmlFor="sinfi" className="control_form_label">
+              sinfi
+              <input
+                type="text"
+                className="control_form_input"
+                placeholder="ekran sinfi"
+                id="sinfi"
               />
             </label>
             <label htmlFor="picture" className="control_form_label">
