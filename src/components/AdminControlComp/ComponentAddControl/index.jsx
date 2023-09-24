@@ -28,9 +28,27 @@ export const AddControlComp = () => {
             </label>
             <div className="control_form_mini_box">
               <p className="control_p">category</p>
-              <select name="" id="" className="control_form_select">
-                <option value="" className="control_form_option">
-                  Compyuter components
+              <select name="component" id="component" className="control_form_select" defaultValue={''}>
+                <option value="kuller" className="control_form_option">
+                  kuller
+                </option>
+                <option value="SSD" className="control_form_option">
+                  SSD
+                </option>
+                <option value="HDD" className="control_form_option">
+                  HDD
+                </option>
+                <option value="RAM" className="control_form_option">
+                  RAM
+                </option>
+                <option value="sichqoncha" className="control_form_option">
+                  sichqoncha
+                </option>
+                <option value="klaviatura" className="control_form_option">
+                  klaviatura
+                </option>
+                <option value="port USB" className="control_form_option">
+                  port USB
                 </option>
               </select>
             </div>
