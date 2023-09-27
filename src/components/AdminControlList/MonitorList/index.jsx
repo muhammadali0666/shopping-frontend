@@ -1,6 +1,32 @@
 import React from "react";
+import { useEffect, useState } from "react";
 
 export const MonitorList = () => {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetch(`http://localhost:4001/get_monitors`)
+      .then((res) => res.json())
+      .then((datas) => setData(datas));
+  }, []);
+
+  ///////////////////////////// get data
+  ///////////////////////////// delete
+
+  const handleDelete = (e) => {
+    fetch(`http://localhost:4001/delete_monitor/${e}`, {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+        getATN: localStorage.getItem("getATN"),
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => alert(data.msg))
+      .catch((error) => console.log(error));
+    window.location.reload(true);
+  };
+
+  ///////////////////////////// delete
   return (
     <div className="control_list">
       <table class="table" style={{ borderCollapse: "collapse" }}>
@@ -39,28 +65,34 @@ export const MonitorList = () => {
           </tr>
         </thead>
         <tbody className="control_table_body">
-          <tr>
-            <th className="control_th" scope="row">
-              1
-            </th>
-            <td className="control_td">Mark</td>
-            <td className="control_td">Otto</td>
-            <td className="control_td">@mdo</td>
-            <td className="control_td">Otto</td>
-            <td className="control_td">Otto</td>
-            <td className="control_td">Otto</td>
-            <td className="control_td">Otto</td>
-            <td className="control_td">Otto</td>
-            <td className="control_td">
-              <i
-                class="fa-solid fa-pen-to-square"
-                style={{ color: "#060f42" }}
-              ></i>
-            </td>
-            <td className="control_td">
-              <i class="fa-solid fa-trash" style={{ color: "#060f42" }}></i>
-            </td>
-          </tr>
+          {data.length &&
+            data.map((element, idx) => (
+              <tr key={idx}>
+                <th className="control_th" scope="row">
+                  {idx+1}
+                </th>
+                <td className="control_td">{element.title}</td>
+                <td className="control_td">{element.price}</td>
+                <td className="control_td">{element.comments}</td>
+                <td className="control_td">{element.brand}</td>
+                <td className="control_td">{element.category}</td>
+                <td className="control_td">{element.ekranDiaganali}</td>
+                <td className="control_td">{element.ekranOlchami}</td>
+                <td className="control_td">
+                  <i
+                    class="fa-solid fa-pen-to-square"
+                    style={{ color: "#060f42" }}
+                  ></i>
+                </td>
+                <td className="control_td">
+                  <i
+                    class="fa-solid fa-trash"
+                    style={{ color: "#060f42" }}
+                    onClick={() => handleDelete(element.id)}
+                  ></i>
+                </td>
+              </tr>
+            ))}
         </tbody>
       </table>
     </div>

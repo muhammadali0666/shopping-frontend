@@ -31,7 +31,7 @@ export const ComComp = () => {
                     />
                   </span>
                   <img
-                    src={Monitor}
+                    src={element.picture}
                     alt="icon"
                     className="card_img"
                     width={218}
