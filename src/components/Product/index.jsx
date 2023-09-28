@@ -6,8 +6,6 @@ import { useState, useEffect } from "react";
 export const Product = () => {
   const [data, setData] = useState([]);
 
-  console.log(data);
-
   useEffect(() => {
     fetch(`http://localhost:4001/get_all_products`)
       .then((res) => res.json(res))

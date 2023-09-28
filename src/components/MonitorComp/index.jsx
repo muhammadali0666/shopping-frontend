@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Monitor from "../../assets/img/card-monitor.png";
 import Like from "../../assets/img/card-like.png";
 import "./monitor.css";
 
@@ -18,8 +17,8 @@ export const MonitorComp = () => {
           <h2 className="monitor_paragraph">Monitorlar</h2>
           <ul className="monitor_list">
             {data.length &&
-              data.map((element) => (
-                <li className="card_item">
+              data.map((element, idx) => (
+                <li className="card_item" key={idx}>
                   <span className="card_span">
                     <img
                       src={Like}
@@ -30,7 +29,7 @@ export const MonitorComp = () => {
                     />
                   </span>
                   <img
-                    src={Monitor}
+                    src={element.picture}
                     alt="icon"
                     className="card_img"
                     width={218}

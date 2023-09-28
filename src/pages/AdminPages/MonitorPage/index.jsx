@@ -1,14 +1,14 @@
 import React from 'react'
 import { AdminLayouts } from '../../AdminLayouts'
 import { AddControlmonitor } from '../../../components/AdminControlComp/AddMonitor'
-import { MonitorList } from '../../../components/AdminControlList/MonitorList'
+import { MonitorAllList } from '../../../components/AdminControlList/MonitorAllList'
 
 export const MonitorControlpage = () => {
   return (
     <>
     <AdminLayouts>
       <AddControlmonitor/>
-      <MonitorList/>
+      <MonitorAllList/>
     </AdminLayouts>
     </>
   )

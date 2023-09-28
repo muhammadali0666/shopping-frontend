@@ -2,7 +2,7 @@ import React from "react";
 import "../admin_control.css";
 import { useState } from "react";
 
-export const AddControlmonitor = () => {
+export const AddControlmonitor = (props) => {
   const [title, setTitle] = useState("");
   const [comments, setComments] = useState("");
   const [category, setCategory] = useState("monitor");
