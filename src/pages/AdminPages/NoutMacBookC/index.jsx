@@ -7,7 +7,7 @@ export const NoutMacbookC = () => {
   return (
     <AdminLayouts>
       <AddControlComputer title='MacBook'/>
-      <ComputerList/>
+      <ComputerList title='MacBook'/>
     </AdminLayouts>
   )
 }

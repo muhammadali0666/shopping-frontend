@@ -7,7 +7,7 @@ export const RouterSikluC = () => {
   return (
     <AdminLayouts>
       <AddControlRouter title='Siklu'/>
-      <RouterList/>
+      <RouterList title='Siklu'/>
     </AdminLayouts>
   );
 };

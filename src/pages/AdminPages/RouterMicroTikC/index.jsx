@@ -7,7 +7,7 @@ export const RouterMicroTikC = () => {
   return (
     <AdminLayouts>
       <AddControlRouter title={'MicroTik'}/>
-      <RouterList/>
+      <RouterList title={'MicroTik'}/>
     </AdminLayouts>
   );
 };

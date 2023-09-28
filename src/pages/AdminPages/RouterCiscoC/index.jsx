@@ -7,7 +7,7 @@ export const RouterCiscoC = () => {
   return (
     <AdminLayouts>
       <AddControlRouter title={'Cisco'}/>
-      <RouterList/>
+      <RouterList title={'Cisco'}/>
     </AdminLayouts>
   );
 };

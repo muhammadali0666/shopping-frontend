@@ -7,7 +7,7 @@ export const PrinterCanonC = () => {
   return (
     <AdminLayouts>
       <AddControlPrinter title='Canon'/>
-      <PrinterList />
+      <PrinterList title='Canon'/>
     </AdminLayouts>
   );
 };

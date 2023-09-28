@@ -7,7 +7,7 @@ export const MouseStellSeriesC = () => {
   return (
     <AdminLayouts>
       <AddControlMouse title='StellSeries'/>
-      <MouseList/>
+      <MouseList title='StellSeries'/>
     </AdminLayouts>
   );
 };

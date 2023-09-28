@@ -7,7 +7,7 @@ export const PrinterEpsonC = () => {
   return (
     <AdminLayouts>
       <AddControlPrinter title='Epson'/>
-      <PrinterList />
+      <PrinterList title='Epson'/>
     </AdminLayouts>
   );
 };

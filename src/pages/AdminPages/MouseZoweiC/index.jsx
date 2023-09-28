@@ -7,7 +7,7 @@ export const MouseZowieC = () => {
   return (
     <AdminLayouts>
       <AddControlMouse title='Zowei by BenQ'/>
-      <MouseList/>
+      <MouseList title='Zowei by BenQ'/>
     </AdminLayouts>
   );
 };

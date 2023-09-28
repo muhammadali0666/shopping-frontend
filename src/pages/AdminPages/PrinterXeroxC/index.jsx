@@ -7,7 +7,7 @@ export const PrinterXeroxC = () => {
   return (
     <AdminLayouts>
       <AddControlPrinter title='Xerox'/>
-      <PrinterList />
+      <PrinterList title='Xerox'/>
     </AdminLayouts>
   );
 };

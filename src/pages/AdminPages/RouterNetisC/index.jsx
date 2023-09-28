@@ -7,7 +7,7 @@ export const RouterNetisC = () => {
   return (
     <AdminLayouts>
       <AddControlRouter title='Netis'/>
-      <RouterList/>
+      <RouterList title='Netis'/>
     </AdminLayouts>
   );
 };

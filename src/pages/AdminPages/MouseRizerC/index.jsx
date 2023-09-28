@@ -7,7 +7,7 @@ export const MouseRizerC = () => {
   return (
     <AdminLayouts>
       <AddControlMouse title='Rizer'/>
-      <MouseList/>
+      <MouseList title='Rizer'/>
     </AdminLayouts>
   );
 };

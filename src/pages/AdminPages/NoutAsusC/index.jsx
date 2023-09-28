@@ -7,7 +7,7 @@ export const NoutAsusC = () => {
   return (
     <AdminLayouts>
       <AddControlComputer title='Asus'/>
-      <ComputerList/>
+      <ComputerList title='Asus'/>
     </AdminLayouts>
   )
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import { useEffect, useState } from "react";
 
-export const MonitorList = () => {
+export const MonitorList = (props) => {
+
   const [data, setData] = useState([]);
   useEffect(() => {
     fetch(`http://localhost:4001/get_monitors`)
@@ -66,7 +67,7 @@ export const MonitorList = () => {
         </thead>
         <tbody className="control_table_body">
           {data.length &&
-            data.map((element, idx) => (
+            data.map((element, idx) => element.brand === props.title ? (
               <tr key={idx}>
                 <th className="control_th" scope="row">
                   {idx+1}
@@ -92,7 +93,7 @@ export const MonitorList = () => {
                   ></i>
                 </td>
               </tr>
-            ))}
+            ) : null)}
         </tbody>
       </table>
     </div>

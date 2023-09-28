@@ -8,7 +8,7 @@ export const MonitorControlGigabayteC = () => {
     <>
     <AdminLayouts>
       <AddControlMonitorBrand title='Gigabayte'/>
-      <MonitorList/>
+      <MonitorList title='Gigabayte'/>
     </AdminLayouts>
     </>
   )

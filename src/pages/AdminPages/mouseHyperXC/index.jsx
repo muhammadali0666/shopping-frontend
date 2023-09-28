@@ -7,7 +7,7 @@ export const MouseHyperXC = () => {
   return (
     <AdminLayouts>
       <AddControlMouse title='HyperX'/>
-      <MouseList/>
+      <MouseList title='HyperX'/>
     </AdminLayouts>
   );
 };

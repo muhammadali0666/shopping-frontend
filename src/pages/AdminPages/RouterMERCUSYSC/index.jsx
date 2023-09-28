@@ -7,7 +7,7 @@ export const RouterMERCUSYSC = () => {
   return (
     <AdminLayouts>
       <AddControlRouter title='MERCUSYS'/>
-      <RouterList/>
+      <RouterList title='MERCUSYS'/>
     </AdminLayouts>
   );
 };

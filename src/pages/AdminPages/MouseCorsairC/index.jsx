@@ -7,7 +7,7 @@ export const MouseCorsairC = () => {
   return (
     <AdminLayouts>
       <AddControlMouse title='Corsair'/>
-      <MouseList/>
+      <MouseList title='Corsair'/>
     </AdminLayouts>
   );
 };

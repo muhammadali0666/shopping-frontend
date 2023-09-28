@@ -7,7 +7,7 @@ export const NoutHpC = () => {
   return (
     <AdminLayouts>
       <AddControlComputer title='Hp'/>
-      <ComputerList/>
+      <ComputerList title='Hp'/>
     </AdminLayouts>
   )
 }

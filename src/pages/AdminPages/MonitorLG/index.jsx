@@ -8,7 +8,7 @@ export const MonitorControlLGC = () => {
     <>
     <AdminLayouts>
       <AddControlMonitorBrand title='LG'/>
-      <MonitorList/>
+      <MonitorList title='LG'/>
     </AdminLayouts>
     </>
   )

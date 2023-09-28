@@ -7,7 +7,7 @@ export const RouterTPLinkC = () => {
   return (
     <AdminLayouts>
       <AddControlRouter title={'TP_Link'}/>
-      <RouterList/>
+      <RouterList title={'TP_Link'}/>
     </AdminLayouts>
   );
 };

@@ -7,7 +7,7 @@ export const RouterXiaomiC = () => {
   return (
     <AdminLayouts>
       <AddControlRouter title='Xiaomi'/>
-      <RouterList/>
+      <RouterList title='Xiaomi'/>
     </AdminLayouts>
   );
 };

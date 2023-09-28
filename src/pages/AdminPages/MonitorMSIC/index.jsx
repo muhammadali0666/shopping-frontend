@@ -8,7 +8,7 @@ export const MonitorControlMSIC = () => {
     <>
     <AdminLayouts>
       <AddControlMonitorBrand title='MSI'/>
-      <MonitorList/>
+      <MonitorList title='MSI'/>
     </AdminLayouts>
     </>
   )

@@ -7,7 +7,7 @@ export const RouterSNRC = () => {
   return (
     <AdminLayouts>
       <AddControlRouter title='SNR'/>
-      <RouterList/>
+      <RouterList title='SNR'/>
     </AdminLayouts>
   );
 };

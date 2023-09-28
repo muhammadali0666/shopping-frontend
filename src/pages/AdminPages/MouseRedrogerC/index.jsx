@@ -7,7 +7,7 @@ export const MouseRedrogerC = () => {
   return (
     <AdminLayouts>
       <AddControlMouse title='Redroger'/>
-      <MouseList/>
+      <MouseList title='Redroger'/>
     </AdminLayouts>
   );
 };

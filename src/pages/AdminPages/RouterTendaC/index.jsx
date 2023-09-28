@@ -7,7 +7,7 @@ export const RouterTendaC = () => {
   return (
     <AdminLayouts>
       <AddControlRouter title='Tenda'/>
-      <RouterList/>
+      <RouterList title='Tenda'/>
     </AdminLayouts>
   );
 };

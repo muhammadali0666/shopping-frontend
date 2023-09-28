@@ -8,7 +8,7 @@ export const PrinterHpC = () => {
   return (
     <AdminLayouts>
       <AddControlPrinter title='Hp'/>
-      <PrinterList/>
+      <PrinterList title='Hp'/>
     </AdminLayouts>
   )
 }
