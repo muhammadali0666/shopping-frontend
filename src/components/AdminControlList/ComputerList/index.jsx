@@ -84,7 +84,7 @@ export const ComputerList = () => {
             data.map((element, idx) => (
               <tr key={idx}>
                 <th className="control_th" scope="row">
-                  1
+                  {idx+1}
                 </th>
                 <td className="control_td">{element.title}</td>
                 <td className="control_td">{element.price}</td>
