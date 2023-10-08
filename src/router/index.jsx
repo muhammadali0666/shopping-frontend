@@ -113,6 +113,7 @@ import { MouseLenovoC } from "../pages/AdminPages/MouseLenovoC";
 import { MouseZowieC } from "../pages/AdminPages/MouseZoweiC";
 import { MouseMSIC } from "../pages/AdminPages/MouseMSIC";
 import { MouseRedrogerC } from "../pages/AdminPages/MouseRedrogerC";
+import { NoutbookAllC } from "../pages/AdminPages/NoutbookAllC";
 
 export const RouterWrapper = () => {
   return (
@@ -200,6 +201,7 @@ export const RouterWrapper = () => {
       <Route path="/control_monitor_msi" element={<MonitorControlMSIC/>}/>
       <Route path="/control_monitor_samsung" element={<MonitorControlSamsungC/>}/>
       <Route path="/control_computer" element={<ComputerControlC/>}/>
+      <Route path="/control_nout_all_c" element={<NoutbookAllC/>}/>
       <Route path="/control_nout_macbook" element={<NoutMacbookC/>}/>
       <Route path="/control_nout_asus" element={<NoutAsusC/>}/>
       <Route path="/contorl_nout_lenovo" element={<NoutLenovoC/>}/>

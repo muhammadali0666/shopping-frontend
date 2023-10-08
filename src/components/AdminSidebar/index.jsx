@@ -217,6 +217,20 @@ export const AdminSidebar = () => {
           </Accordion.Header>
           <Accordion.Body>
             <li className="sidebar_item">
+              <NavLink to={"/control_nout_all_c"} className="sidebar_box">
+                <img
+                  src={Laptop}
+                  alt="icon"
+                  className="sidebar_img"
+                  width={20}
+                  height={24}
+                />
+                <p className="sidebar_p">Noutbuklar</p>
+              </NavLink>
+            </li>
+          </Accordion.Body>
+          <Accordion.Body>
+            <li className="sidebar_item">
               <NavLink to={"/control_nout_macbook"} className="sidebar_box">
                 <img
                   src={Laptop}

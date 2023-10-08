@@ -1,13 +1,13 @@
 import React from "react";
 import { useEffect, useState } from "react";
 
-export const ComputerList = () => {
+export const NoutbookList = () => {
   const [data, setData] = useState([]);
 
   ///////////////////////////// get data
 
   useEffect(() => {
-    fetch(`http://localhost:4001/get_computers`)
+    fetch(`http://localhost:4001/get_noutbooks`)
       .then((res) => res.json())
       .then((datas) => setData(datas));
   }, []);
@@ -16,7 +16,7 @@ export const ComputerList = () => {
   ///////////////////////////// delete
 
   const handleDelete = (e) => {
-    fetch(`http://localhost:4001/delete_computer/${e}`, {
+    fetch(`http://localhost:4001/delete_noutbook/${e}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
@@ -84,7 +84,7 @@ export const ComputerList = () => {
             data.map((element, idx) => (
               <tr key={idx}>
                 <th className="control_th" scope="row">
-                  {idx+1}
+                  {idx + 1}
                 </th>
                 <td className="control_td">{element.title}</td>
                 <td className="control_td">{element.price}</td>
@@ -104,7 +104,11 @@ export const ComputerList = () => {
                   ></i>
                 </td>
                 <td className="control_td">
-                  <i class="fa-solid fa-trash" style={{ color: "#060f42" }} onClick={() => handleDelete(element.id)}></i>
+                  <i
+                    class="fa-solid fa-trash"
+                    style={{ color: "#060f42" }}
+                    onClick={() => handleDelete(element.id)}
+                  ></i>
                 </td>
               </tr>
             ))}
