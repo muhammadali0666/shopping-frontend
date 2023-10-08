@@ -63,12 +63,6 @@ import { RouterMERCUSYS } from "../pages/Modal/RouterMercusys";
 import { RouterSNR } from "../pages/Modal/RouterSNR";
 import { AdminPanel } from "../pages/Admin";
 import { MonitorControlpage } from "../pages/AdminPages/MonitorPage";
-import { MonitorControlAcerC } from "../pages/AdminPages/MonitorAcerC";
-import { MonitorControlAsusC } from "../pages/AdminPages/MonitorAsusC";
-import { MonitorControlDellC } from "../pages/AdminPages/MonitorDellC";
-import { MonitorControlGigabayteC } from "../pages/AdminPages/MonitorGigabayteC";
-import { MonitorControlLGC } from "../pages/AdminPages/MonitorLG";
-import { MonitorControlMSIC } from "../pages/AdminPages/MonitorMSIC";
 import { MonitorControlSamsungC } from "../pages/AdminPages/MonitorSamsungC";
 import { ComputerControlC } from "../pages/AdminPages/ComputerC";
 import { NoutMacbookC } from "../pages/AdminPages/NoutMacBookC";
@@ -193,13 +187,6 @@ export const RouterWrapper = () => {
         <Route path="/login" element={<Login />} />
       )}
       <Route path="/control_monitor" element={<MonitorControlpage/>}/>
-      <Route path="/control_monitor_acer" element={<MonitorControlAcerC/>}/>
-      <Route path="/control_monitor_asus" element={<MonitorControlAsusC/>}/>
-      <Route path="/control_monitor_dell" element={<MonitorControlDellC/>}/>
-      <Route path="/control_monitor_gigabayte" element={<MonitorControlGigabayteC/>}/>
-      <Route path="/control_monitor_lg" element={<MonitorControlLGC/>}/>
-      <Route path="/control_monitor_msi" element={<MonitorControlMSIC/>}/>
-      <Route path="/control_monitor_samsung" element={<MonitorControlSamsungC/>}/>
       <Route path="/control_computer" element={<ComputerControlC/>}/>
       <Route path="/control_nout_all_c" element={<NoutbookAllC/>}/>
       <Route path="/control_nout_macbook" element={<NoutMacbookC/>}/>
