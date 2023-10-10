@@ -67,11 +67,6 @@ import { ComputerControlC } from "../pages/AdminPages/ComputerC";
 import { ConsolC } from "../pages/AdminPages/GameConsolC";
 import { PlanshetC } from "../pages/AdminPages/PlanshetC";
 import { PrinterC } from "../pages/AdminPages/PrinterC";
-import { PrinterHpC } from "../pages/AdminPages/PrinterHpC";
-import { PrinterCanonC } from "../pages/AdminPages/PrinterCanonC";
-import { PrinterXeroxC } from "../pages/AdminPages/PrinterXeroxC";
-import { PrinterBrotherC } from "../pages/AdminPages/PrinterBrotherC";
-import { PrinterEpsonC } from "../pages/AdminPages/PrinterEpsonC";
 import { KalonkaC } from "../pages/AdminPages/KalonkaC";
 import { RouterC } from "../pages/AdminPages/RouterC";
 import { RouterTPLinkC } from "../pages/AdminPages/RouterTP_LinkC";
@@ -182,11 +177,6 @@ export const RouterWrapper = () => {
       <Route path="/control_nout_consol" element={<ConsolC/>}/>
       <Route path="/control_planshet" element={<PlanshetC/>}/>
       <Route path="/control_printer" element={<PrinterC/>}/>
-      <Route path="/control_printer_hp" element={<PrinterHpC/>}/>
-      <Route path="/control_printer_canon" element={<PrinterCanonC/>}/>
-      <Route path="/control_printer_xerox" element={<PrinterXeroxC/>}/>
-      <Route path="/control_printer_brother" element={<PrinterBrotherC/>}/>
-      <Route path="/control_printer_epson" element={<PrinterEpsonC/>}/>
       <Route path="/control_kalonka" element={<KalonkaC/>}/>
       <Route path="/control_router" element={<RouterC/>}/>
       <Route path="/control_router_tp_link" element={<RouterTPLinkC/>}/>
