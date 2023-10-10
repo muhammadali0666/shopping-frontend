@@ -168,7 +168,7 @@ export const Header = () => {
                     height={30}
                   />
                 </li>
-                <li className="header_icons_item">
+                <NavLink className="header_icons_item" to={'/purchase'}>
                   <img
                     src={Shopping}
                     alt=""
@@ -176,7 +176,7 @@ export const Header = () => {
                     width={30}
                     height={30}
                   />
-                </li>
+                </NavLink>
               </ul>
             </div>
           </div>

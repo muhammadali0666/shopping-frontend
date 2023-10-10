@@ -71,6 +71,7 @@ import { KalonkaC } from "../pages/AdminPages/KalonkaC";
 import { RouterC } from "../pages/AdminPages/RouterC";
 import { MouseC } from "../pages/AdminPages/MousesC";
 import { NoutbookAllC } from "../pages/AdminPages/NoutbookAllC";
+import { PurchasePage } from "../pages/Purchase";
 
 export const RouterWrapper = () => {
   return (
@@ -159,6 +160,9 @@ export const RouterWrapper = () => {
       <Route path="/control_router" element={<RouterC/>}/>
       <Route path="/control_mouse" element={<MouseC/>}/>
       {/* admin_panel  */}
+      {/* xarid */}
+      <Route path="/purchase" element={<PurchasePage/>}/>
+      {/* xarid  */}
       <Route path="*" element={<Error />} />
     </Routes>
   );
