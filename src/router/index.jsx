@@ -70,18 +70,6 @@ import { PrinterC } from "../pages/AdminPages/PrinterC";
 import { KalonkaC } from "../pages/AdminPages/KalonkaC";
 import { RouterC } from "../pages/AdminPages/RouterC";
 import { MouseC } from "../pages/AdminPages/MousesC";
-import { MouseLogitechC } from "../pages/AdminPages/MouseLogitechC";
-import { MouseRizerC } from "../pages/AdminPages/MouseRizerC";
-import { MouseMicrosoftC } from "../pages/AdminPages/MouseMicrosoftC";
-import { MouseStellSeriesC } from "../pages/AdminPages/MouseStellSeriesC";
-import { MouseROCCATC } from "../pages/AdminPages/MouseROCCATC";
-import { MouseAsusC } from "../pages/AdminPages/MouseAsusC";
-import { MouseHyperXC } from "../pages/AdminPages/mouseHyperXC";
-import { MouseCorsairC } from "../pages/AdminPages/MouseCorsairC";
-import { MouseLenovoC } from "../pages/AdminPages/MouseLenovoC";
-import { MouseZowieC } from "../pages/AdminPages/MouseZoweiC";
-import { MouseMSIC } from "../pages/AdminPages/MouseMSIC";
-import { MouseRedrogerC } from "../pages/AdminPages/MouseRedrogerC";
 import { NoutbookAllC } from "../pages/AdminPages/NoutbookAllC";
 
 export const RouterWrapper = () => {
@@ -170,18 +158,6 @@ export const RouterWrapper = () => {
       <Route path="/control_kalonka" element={<KalonkaC/>}/>
       <Route path="/control_router" element={<RouterC/>}/>
       <Route path="/control_mouse" element={<MouseC/>}/>
-      <Route path="/control_mouse_logitech" element={<MouseLogitechC/>}/>
-      <Route path="/control_mouse_rizer" element={<MouseRizerC/>}/>
-      <Route path="/control_mouse_microsoft" element={<MouseMicrosoftC/>}/>
-      <Route path="/control_mouse_stell_series" element={<MouseStellSeriesC/>}/>
-      <Route path="/control_mouse_roccat" element={<MouseROCCATC/>}/>
-      <Route path="/control_mouse_asus" element={<MouseAsusC/>}/>
-      <Route path="/control_mouse_hyperx" element={<MouseHyperXC/>}/>
-      <Route path="/control_mouse_corsair" element={<MouseCorsairC/>}/>
-      <Route path="/control_mouse_lenovo" element={<MouseLenovoC/>}/>
-      <Route path="/control_mouse_zowei" element={<MouseZowieC/>}/>
-      <Route path="/control_mouse_msi" element={<MouseMSIC/>}/>
-      <Route path="/control_mouse_redroger" element={<MouseRedrogerC/>}/>
       {/* admin_panel  */}
       <Route path="*" element={<Error />} />
     </Routes>
