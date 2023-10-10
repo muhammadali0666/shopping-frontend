@@ -63,17 +63,7 @@ import { RouterMERCUSYS } from "../pages/Modal/RouterMercusys";
 import { RouterSNR } from "../pages/Modal/RouterSNR";
 import { AdminPanel } from "../pages/Admin";
 import { MonitorControlpage } from "../pages/AdminPages/MonitorPage";
-import { MonitorControlSamsungC } from "../pages/AdminPages/MonitorSamsungC";
 import { ComputerControlC } from "../pages/AdminPages/ComputerC";
-import { NoutMacbookC } from "../pages/AdminPages/NoutMacBookC";
-import { NoutAsusC } from "../pages/AdminPages/NoutAsusC";
-import { NoutLenovoC } from "../pages/AdminPages/NoutLenovoC";
-import { NoutHpC } from "../pages/AdminPages/NoutHpC";
-import { NoutDellC } from "../pages/AdminPages/NoutDellC";
-import { NoutAcerC } from "../pages/AdminPages/NoutAcerC";
-import { NoutSonyC } from "../pages/AdminPages/NoutSonyC";
-import { NoutSamsungC } from "../pages/AdminPages/NoutSamsungC";
-import { NoutToshibaC } from "../pages/AdminPages/NoutToshibaC";
 import { ConsolC } from "../pages/AdminPages/GameConsolC";
 import { PlanshetC } from "../pages/AdminPages/PlanshetC";
 import { PrinterC } from "../pages/AdminPages/PrinterC";
@@ -189,15 +179,6 @@ export const RouterWrapper = () => {
       <Route path="/control_monitor" element={<MonitorControlpage/>}/>
       <Route path="/control_computer" element={<ComputerControlC/>}/>
       <Route path="/control_nout_all_c" element={<NoutbookAllC/>}/>
-      <Route path="/control_nout_macbook" element={<NoutMacbookC/>}/>
-      <Route path="/control_nout_asus" element={<NoutAsusC/>}/>
-      <Route path="/contorl_nout_lenovo" element={<NoutLenovoC/>}/>
-      <Route path="/control_nout_hp" element={<NoutHpC/>}/>
-      <Route path="/control_nout_dell" element={<NoutDellC/>}/>
-      <Route path="/control_nout_acer" element={<NoutAcerC/>}/>
-      <Route path="/control_nout_sony" element={<NoutSonyC/>}/>
-      <Route path="/control_nout_samsung" element={<NoutSamsungC/>}/>
-      <Route path="/control_nout_toshiba" element={<NoutToshibaC/>}/>
       <Route path="/control_nout_consol" element={<ConsolC/>}/>
       <Route path="/control_planshet" element={<PlanshetC/>}/>
       <Route path="/control_printer" element={<PrinterC/>}/>
